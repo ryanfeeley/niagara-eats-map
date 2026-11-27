@@ -15,3 +15,7 @@ Addresses are included only when supported by a reviewed source. Current operati
 Serve the repository over HTTP (for example `python -m http.server 8000`) and open `http://localhost:8000`. The page loads `data.json` relative to the site URL, including under the GitHub Pages repository path.
 
 Run `node scripts/validate-data.mjs` before publishing. This checks unique IDs, source references, duplicate venues/mentions, municipality names, URLs and date fields, and requires coordinate provenance before plotting new markers.
+
+## Design
+
+The interface follows the compact panels, typography, responsive card grid and theme controls of [DineSafe Nearby](https://dinesafe.ryanfeeley.com/), with a distinct burnt-orange palette and custom burger icon. `styles.css` holds the design tokens and responsive layouts; `burger.svg` is the favicon. The theme switch supports the system preference and persists an explicit light or dark selection locally.
