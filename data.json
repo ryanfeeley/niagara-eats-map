@@ -1,0 +1,1403 @@
+{
+  "updatedAt": "2026-11-27",
+  "creators": [
+    {
+      "id": "eating-niagara",
+      "name": "Eating Niagara",
+      "url": "https://www.instagram.com/eatingniagara/",
+      "kind": "Creator coverage"
+    },
+    {
+      "id": "tipsy-theory",
+      "name": "Tipsy Theory",
+      "url": "https://tipsytheory.com/",
+      "kind": "Creator coverage"
+    },
+    {
+      "id": "restaurants-of-niagara",
+      "name": "Restaurants of Niagara",
+      "url": "https://wheninniagara.com/eat-directory/",
+      "kind": "Directory"
+    },
+    {
+      "id": "visit-niagara",
+      "name": "Visit Niagara Canada",
+      "url": "https://www.visitniagaracanada.com/",
+      "kind": "Tourism editorial / directory"
+    },
+    {
+      "id": "tourism-notl",
+      "name": "Tourism Niagara-on-the-Lake",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "kind": "Tourism directory"
+    },
+    {
+      "id": "business",
+      "name": "Business website",
+      "url": null,
+      "kind": "Business listing"
+    },
+    {
+      "id": "yellowpages",
+      "name": "YellowPages",
+      "url": "https://www.yellowpages.ca/",
+      "kind": "Directory"
+    }
+  ],
+  "venues": [
+    {
+      "id": "chocolates-etc-st-catharines",
+      "name": "Chocolates Etc.",
+      "town": "St. Catharines",
+      "cuisine": "Desserts",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "caffe-gatti-st-catharines",
+      "name": "Caffe Gatti",
+      "town": "St. Catharines",
+      "cuisine": "Italian café",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "brass-monkey-local-st-catharines",
+      "name": "Brass Monkey Local",
+      "town": "St. Catharines",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "lounge-six-parkway-sky-bar-st-catharines",
+      "name": "Lounge Six Parkway Sky Bar",
+      "town": "St. Catharines",
+      "cuisine": "Bar",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "merchant-ale-house-st-catharines",
+      "name": "Merchant Ale House",
+      "town": "St. Catharines",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "karma-kameleon-gastropub-thorold",
+      "name": "Karma Kameleon Gastropub",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "bricks-barley-niagara-on-the-lake",
+      "name": "Bricks & Barley",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-grist-craft-kitchen-and-brewery-niagara-on-the-lake",
+      "name": "The Grist Craft Kitchen and Brewery",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Brewery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "taris-on-the-water-welland",
+      "name": "Taris on the Water",
+      "town": "Welland",
+      "cuisine": "Bistro",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-smokin-buddha-port-colborne",
+      "name": "The Smokin’ Buddha",
+      "town": "Port Colborne",
+      "cuisine": "International",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "queen-bean-niagara-falls",
+      "name": "Queen Bean",
+      "town": "Niagara Falls",
+      "cuisine": "Café",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "secret-garden-restaurant-niagara-falls",
+      "name": "Secret Garden Restaurant",
+      "town": "Niagara Falls",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "counterpart-brewing-niagara-falls",
+      "name": "Counterpart Brewing",
+      "town": "Niagara Falls",
+      "cuisine": "Brewery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "casa-toscana-grimsby",
+      "name": "Casa Toscana",
+      "town": "Grimsby",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "megalomaniac-food-drink-lincoln",
+      "name": "Megalomaniac Food & Drink",
+      "town": "Lincoln",
+      "cuisine": "Winery dining",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "tailgates-bar-grill-welland",
+      "name": "Tailgates Bar & Grill",
+      "town": "Welland",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "ruffinos-pasta-bar-grill-niagara-on-the-lake",
+      "name": "Ruffino’s Pasta Bar & Grill",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "barrelhead-niagara-on-the-lake",
+      "name": "Barrelhead",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Pizza",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "casa-mia-ristorante-niagara-falls",
+      "name": "Casa Mia Ristorante",
+      "town": "Niagara Falls",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "inn-on-the-twenty-lincoln",
+      "name": "Inn on the Twenty",
+      "town": "Lincoln",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "valley-restaurant-st-catharines",
+      "name": "Valley Restaurant",
+      "town": "St. Catharines",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-blind-pig-niagara-falls",
+      "name": "The Blind Pig",
+      "town": "Niagara Falls",
+      "cuisine": "Pub",
+      "address": "6689 Lundy's Lane",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "blackburn-brewhouse-niagara-falls",
+      "name": "Blackburn Brewhouse",
+      "town": "Niagara Falls",
+      "cuisine": "Brewery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "trust-beer-bar-st-catharines",
+      "name": "Trust Beer Bar",
+      "town": "St. Catharines",
+      "cuisine": "Bar",
+      "address": "3 Garden Park",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "kaiserhaus-st-catharines",
+      "name": "KaiserHaus",
+      "town": "St. Catharines",
+      "cuisine": "Bistro",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "ludology-boardgame-cafe-st-catharines",
+      "name": "Ludology Boardgame Cafe",
+      "town": "St. Catharines",
+      "cuisine": "Café",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "13th-street-winery-st-catharines",
+      "name": "13th Street Winery",
+      "town": "St. Catharines",
+      "cuisine": "Winery dining",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "napoli-ristorante-pizzeria-niagara-falls",
+      "name": "Napoli Ristorante Pizzeria",
+      "town": "Niagara Falls",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "carpaccio-restaurant-wine-bar-niagara-falls",
+      "name": "Carpaccio Restaurant & Wine Bar",
+      "town": "Niagara Falls",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-twisted-pig-st-catharines",
+      "name": "The Twisted Pig",
+      "town": "St. Catharines",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "johnny-roccos-niagara-falls",
+      "name": "Johnny Rocco’s",
+      "town": "Niagara Falls",
+      "cuisine": "Italian",
+      "address": "6889 Lundy's Lane",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "fonthill-butcher-and-banker-pelham",
+      "name": "Fonthill Butcher and Banker",
+      "town": "Pelham",
+      "cuisine": "Pub",
+      "address": "1440 Pelham Street, Fonthill",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "notl-bar-restaurant-niagara-on-the-lake",
+      "name": "NOTL Bar & Restaurant",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Canadian",
+      "address": "126 Queen Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "tide-vine-niagara-falls",
+      "name": "Tide & Vine",
+      "town": "Niagara Falls",
+      "cuisine": "Seafood",
+      "address": "3491 Portage Road",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "la-favella-niagara-falls",
+      "name": "La Favella",
+      "town": "Niagara Falls",
+      "cuisine": "Bar",
+      "address": "6671 Fallsview Boulevard",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "twenty-kitchen-st-catharines",
+      "name": "Twenty Kitchen",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": "259 St. Paul Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "lake-house-restaurant-lincoln",
+      "name": "Lake House Restaurant",
+      "town": "Lincoln",
+      "cuisine": "Mediterranean",
+      "address": "3100 North Service Road, Vineland",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "lang-on-the-water-grimsby",
+      "name": "Lang On The Water",
+      "town": "Grimsby",
+      "cuisine": "Vietnamese",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "restaurant-pearl-morissette-lincoln",
+      "name": "Restaurant Pearl Morissette",
+      "town": "Lincoln",
+      "cuisine": "Fine dining",
+      "address": "3953 Jordan Road, Jordan Station",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "rpm-bakehouse-lincoln",
+      "name": "RPM Bakehouse",
+      "town": "Lincoln",
+      "cuisine": "Bakery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "vineland-estates-winery-restaurant-lincoln",
+      "name": "Vineland Estates Winery Restaurant",
+      "town": "Lincoln",
+      "cuisine": "Winery dining",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-bistro-at-the-good-earth-lincoln",
+      "name": "The Bistro at The Good Earth",
+      "town": "Lincoln",
+      "cuisine": "Winery dining",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-restaurant-at-peninsula-ridge-lincoln",
+      "name": "The Restaurant at Peninsula Ridge",
+      "town": "Lincoln",
+      "cuisine": "Winery dining",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "revalee-brunch-cafe-lincoln",
+      "name": "Revalee Brunch Café",
+      "town": "Lincoln",
+      "cuisine": "Brunch",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "fat-rabbit-st-catharines",
+      "name": "Fat Rabbit",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": "34 Geneva Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "les-incompetents-st-catharines",
+      "name": "Les Incompétents",
+      "town": "St. Catharines",
+      "cuisine": "French",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "oddbird-st-catharines",
+      "name": "OddBird",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "bolete-st-catharines",
+      "name": "Bolete",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "wellington-court-st-catharines",
+      "name": "Wellington Court",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "pique-nique-st-catharines",
+      "name": "Pique-Nique",
+      "town": "St. Catharines",
+      "cuisine": "Café",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "beechwood-doughnuts-st-catharines",
+      "name": "Beechwood Doughnuts",
+      "town": "St. Catharines",
+      "cuisine": "Bakery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "brindle-st-catharines",
+      "name": "Brindle",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "ming-teh-chinese-restaurant-fort-erie",
+      "name": "Ming Teh Chinese Restaurant",
+      "town": "Fort Erie",
+      "cuisine": "Chinese",
+      "address": "126 Niagara Boulevard",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "m-t-bellies-tap-and-grill-welland",
+      "name": "M.T. Bellies Tap and Grill",
+      "town": "Welland",
+      "cuisine": "Pub",
+      "address": "871 Niagara Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "matteos-ristorante-welland",
+      "name": "Matteo’s Ristorante",
+      "town": "Welland",
+      "cuisine": "Italian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "the-fox-and-hummingbird-tea-room-welland",
+      "name": "The Fox and Hummingbird Tea Room",
+      "town": "Welland",
+      "cuisine": "Tea room",
+      "address": "57 Division Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "mellow-yellow-sips-fort-erie",
+      "name": "Mellow Yellow Sips",
+      "town": "Fort Erie",
+      "cuisine": "Café",
+      "address": "4060 Erie Road",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "diner-house-29-st-catharines",
+      "name": "Diner House 29",
+      "town": "St. Catharines",
+      "cuisine": "Diner",
+      "address": "431 Welland Avenue",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "11th-post-on-queen-niagara-on-the-lake",
+      "name": "11th Post on Queen",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Restaurant",
+      "address": "135 Queen Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "aura-on-the-lake-niagara-on-the-lake",
+      "name": "Aura on the Lake",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Restaurant",
+      "address": "233 King Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "avondale-dairy-bar-niagara-on-the-lake",
+      "name": "Avondale Dairy Bar",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Desserts",
+      "address": "461 Stewart Road",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "benchmark-restaurant-niagara-on-the-lake",
+      "name": "Benchmark Restaurant",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Restaurant",
+      "address": "135 Taylor Road",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "bistro-six-one-niagara-on-the-lake",
+      "name": "Bistro Six-One",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Restaurant",
+      "address": "61 Queen Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "budapest-bakeshop-niagara-on-the-lake",
+      "name": "Budapest Bakeshop",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Bakery",
+      "address": "118 Queen Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "cannery-restaurant-niagara-on-the-lake",
+      "name": "Cannery Restaurant",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Restaurant",
+      "address": "48 John Street West",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "corks-wine-bar-eatery-niagara-on-the-lake",
+      "name": "Cork’s Wine Bar & Eatery",
+      "town": "Niagara-on-the-Lake",
+      "cuisine": "Bar",
+      "address": "19 Queen Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "wainfleet-restaurant-wainfleet",
+      "name": "Wainfleet Restaurant",
+      "town": "Wainfleet",
+      "cuisine": "International",
+      "address": "42085 Highway 3",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "touchdown-willys-tap-grill-west-lincoln",
+      "name": "Touchdown Willy’s Tap & Grill",
+      "town": "West Lincoln",
+      "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "mention-001",
+      "venueId": "chocolates-etc-st-catharines",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-002",
+      "venueId": "caffe-gatti-st-catharines",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-003",
+      "venueId": "brass-monkey-local-st-catharines",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-004",
+      "venueId": "lounge-six-parkway-sky-bar-st-catharines",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-005",
+      "venueId": "merchant-ale-house-st-catharines",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-006",
+      "venueId": "karma-kameleon-gastropub-thorold",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-007",
+      "venueId": "bricks-barley-niagara-on-the-lake",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-008",
+      "venueId": "the-grist-craft-kitchen-and-brewery-niagara-on-the-lake",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-009",
+      "venueId": "taris-on-the-water-welland",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-010",
+      "venueId": "the-smokin-buddha-port-colborne",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-011",
+      "venueId": "queen-bean-niagara-falls",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-012",
+      "venueId": "secret-garden-restaurant-niagara-falls",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-013",
+      "venueId": "counterpart-brewing-niagara-falls",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-014",
+      "venueId": "casa-toscana-grimsby",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-015",
+      "venueId": "megalomaniac-food-drink-lincoln",
+      "creatorId": "eating-niagara",
+      "url": "https://wheninniagara.com/15-niagara-patios-to-help-you-fall-for-autumn/",
+      "date": "2021-09-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical patio coverage; includes community suggestions"
+    },
+    {
+      "id": "mention-016",
+      "venueId": "tailgates-bar-grill-welland",
+      "creatorId": "restaurants-of-niagara",
+      "url": "https://wheninniagara.com/eat-directory/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Directory spotlight"
+    },
+    {
+      "id": "mention-017",
+      "venueId": "ruffinos-pasta-bar-grill-niagara-on-the-lake",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-018",
+      "venueId": "barrelhead-niagara-on-the-lake",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-019",
+      "venueId": "casa-mia-ristorante-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-020",
+      "venueId": "inn-on-the-twenty-lincoln",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-021",
+      "venueId": "valley-restaurant-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-022",
+      "venueId": "the-blind-pig-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-023",
+      "venueId": "blackburn-brewhouse-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-024",
+      "venueId": "trust-beer-bar-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-025",
+      "venueId": "kaiserhaus-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-026",
+      "venueId": "ludology-boardgame-cafe-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-027",
+      "venueId": "13th-street-winery-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/our-favourite-date-spots-in-niagara-locals-guide/",
+      "date": "2024-09-26",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Date spots guide"
+    },
+    {
+      "id": "mention-028",
+      "venueId": "casa-mia-ristorante-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-italian-restaurants-in-niagara-that-are-pasta-tively-amazing/",
+      "date": "2023-02-12",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Italian restaurants guide"
+    },
+    {
+      "id": "mention-029",
+      "venueId": "ruffinos-pasta-bar-grill-niagara-on-the-lake",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-italian-restaurants-in-niagara-that-are-pasta-tively-amazing/",
+      "date": "2023-02-12",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Italian restaurants guide"
+    },
+    {
+      "id": "mention-030",
+      "venueId": "napoli-ristorante-pizzeria-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-italian-restaurants-in-niagara-that-are-pasta-tively-amazing/",
+      "date": "2023-02-12",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Italian restaurants guide"
+    },
+    {
+      "id": "mention-031",
+      "venueId": "carpaccio-restaurant-wine-bar-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-italian-restaurants-in-niagara-that-are-pasta-tively-amazing/",
+      "date": "2023-02-12",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Italian restaurants guide"
+    },
+    {
+      "id": "mention-032",
+      "venueId": "the-twisted-pig-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-italian-restaurants-in-niagara-that-are-pasta-tively-amazing/",
+      "date": "2023-02-12",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Italian restaurants guide"
+    },
+    {
+      "id": "mention-033",
+      "venueId": "johnny-roccos-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-034",
+      "venueId": "fonthill-butcher-and-banker-pelham",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-035",
+      "venueId": "notl-bar-restaurant-niagara-on-the-lake",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-036",
+      "venueId": "tide-vine-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-037",
+      "venueId": "the-blind-pig-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-038",
+      "venueId": "trust-beer-bar-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-039",
+      "venueId": "la-favella-niagara-falls",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-040",
+      "venueId": "twenty-kitchen-st-catharines",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-happy-hour-deals-in-niagara/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Happy hour coverage; offers not verified"
+    },
+    {
+      "id": "mention-041",
+      "venueId": "lake-house-restaurant-lincoln",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-restaurants-in-ontario-with-stunning-waterside-views/",
+      "date": "2022-05-29",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Waterside restaurants guide"
+    },
+    {
+      "id": "mention-042",
+      "venueId": "lang-on-the-water-grimsby",
+      "creatorId": "tipsy-theory",
+      "url": "https://tipsytheory.com/best-restaurants-in-ontario-with-stunning-waterside-views/",
+      "date": "2022-05-29",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Waterside restaurants guide"
+    },
+    {
+      "id": "mention-043",
+      "venueId": "restaurant-pearl-morissette-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-044",
+      "venueId": "rpm-bakehouse-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-045",
+      "venueId": "vineland-estates-winery-restaurant-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-046",
+      "venueId": "the-bistro-at-the-good-earth-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-047",
+      "venueId": "the-restaurant-at-peninsula-ridge-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-048",
+      "venueId": "megalomaniac-food-drink-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-049",
+      "venueId": "revalee-brunch-cafe-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-050",
+      "venueId": "inn-on-the-twenty-lincoln",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-051",
+      "venueId": "fat-rabbit-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-052",
+      "venueId": "les-incompetents-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-053",
+      "venueId": "oddbird-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-054",
+      "venueId": "bolete-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-055",
+      "venueId": "wellington-court-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-056",
+      "venueId": "pique-nique-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-057",
+      "venueId": "beechwood-doughnuts-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-058",
+      "venueId": "brindle-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/blog/post/fanning-the-flames/",
+      "date": "2025-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-059",
+      "venueId": "ming-teh-chinese-restaurant-fort-erie",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/ming-teh-chinese-restaurant/426/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-060",
+      "venueId": "m-t-bellies-tap-and-grill-welland",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/m-t-bellies-tap-and-grill/428/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-061",
+      "venueId": "matteos-ristorante-welland",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/matteo%E2%80%99s-ristorante/429/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-062",
+      "venueId": "the-fox-and-hummingbird-tea-room-welland",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/the-fox-and-hummingbird-tea-room/1345/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-063",
+      "venueId": "mellow-yellow-sips-fort-erie",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/mellow-yellow-sips/1369/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-064",
+      "venueId": "diner-house-29-st-catharines",
+      "creatorId": "visit-niagara",
+      "url": "https://www.visitniagaracanada.com/listing/diner-house-29/1351/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-065",
+      "venueId": "11th-post-on-queen-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-066",
+      "venueId": "aura-on-the-lake-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-067",
+      "venueId": "avondale-dairy-bar-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-068",
+      "venueId": "benchmark-restaurant-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-069",
+      "venueId": "bistro-six-one-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-070",
+      "venueId": "budapest-bakeshop-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-071",
+      "venueId": "cannery-restaurant-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-072",
+      "venueId": "corks-wine-bar-eatery-niagara-on-the-lake",
+      "creatorId": "tourism-notl",
+      "url": "https://www.niagaraonthelake.com/restaurants/",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Tourism directory listing"
+    },
+    {
+      "id": "mention-073",
+      "venueId": "wainfleet-restaurant-wainfleet",
+      "creatorId": "business",
+      "url": "https://www.wainfleetrestaurant.com/index.php",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
+    },
+    {
+      "id": "mention-074",
+      "venueId": "touchdown-willys-tap-grill-west-lincoln",
+      "creatorId": "yellowpages",
+      "url": "https://www.yellowpages.ca/bus/Ontario/Smithville/Touchdown-Willy-s-Tap-Grill/100980992.html",
+      "date": null,
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Directory listing; Smithville"
+    }
+  ]
+}
