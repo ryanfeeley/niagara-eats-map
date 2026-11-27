@@ -18,6 +18,8 @@ for (const venue of data.venues) {
   if (venue.coords !== null) {
     assert(venue.coordinateSource && new URL(venue.coordinateSource).protocol === 'https:');
     assert(venue.coords.length === 2 && venue.coords.every(Number.isFinite));
+    assert(venue.coords[0] > 42.8 && venue.coords[0] < 43.4 && venue.coords[1] > -79.9 && venue.coords[1] < -78.9, 'Coordinates must be within Niagara');
+    assert(venue.coordinateVerifiedAt && venue.coordinateMethod && venue.address, 'Mapped venues require address and verification details');
   }
 }
 const mentionKeys = new Set();

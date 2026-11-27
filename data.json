@@ -42,6 +42,13 @@
       "name": "YellowPages",
       "url": "https://www.yellowpages.ca/",
       "kind": "Directory"
+    },
+    {
+      "id": "tastes-of-niagara",
+      "name": "Tastes of Niagara",
+      "url": "https://www.facebook.com/tastesofniagara",
+      "kind": "Creator coverage",
+      "website": "https://tastesofniagara.ca/"
     }
   ],
   "venues": [
@@ -104,18 +111,30 @@
       "name": "Bricks & Barley",
       "town": "Niagara-on-the-Lake",
       "cuisine": "Pub",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "1573 Four Mile Creek Road",
+      "coords": [
+        43.2193835,
+        -79.1216325
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://bricksandbarley.ca/",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Venue point checked against named business and address; not a viewport centre"
     },
     {
       "id": "the-grist-craft-kitchen-and-brewery-niagara-on-the-lake",
       "name": "The Grist Craft Kitchen and Brewery",
       "town": "Niagara-on-the-Lake",
       "cuisine": "Brewery",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "78 Four Mile Creek Road",
+      "coords": [
+        43.1501,
+        -79.1041
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://untappd.com/w/the-grist/502772/photos",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Venue point checked against named business and address; not a viewport centre"
     },
     {
       "id": "taris-on-the-water-welland",
@@ -131,9 +150,15 @@
       "name": "The Smokin’ Buddha",
       "town": "Port Colborne",
       "cuisine": "International",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "265 King Street",
+      "coords": [
+        42.88708329999999,
+        -79.2505269
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://www.thesmokinbuddha.com/",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Venue point checked against named business and address; not a viewport centre"
     },
     {
       "id": "queen-bean-niagara-falls",
@@ -158,9 +183,15 @@
       "name": "Counterpart Brewing",
       "town": "Niagara Falls",
       "cuisine": "Brewery",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "3659 Stanley Avenue",
+      "coords": [
+        43.1199989,
+        -79.0871964
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://untappd.com/Counterpart_Brewing/photos",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Venue point checked against named business and address; not a viewport centre"
     },
     {
       "id": "casa-toscana-grimsby",
@@ -275,9 +306,15 @@
       "name": "Ludology Boardgame Cafe",
       "town": "St. Catharines",
       "cuisine": "Café",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "52 St. Paul Street",
+      "coords": [
+        43.1561168,
+        -79.24522999999999
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://www.ludology.ca/",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Business website GeoCoordinates and venue map link"
     },
     {
       "id": "13th-street-winery-st-catharines",
@@ -393,8 +430,14 @@
       "town": "Lincoln",
       "cuisine": "Fine dining",
       "address": "3953 Jordan Road, Jordan Station",
-      "coords": null,
-      "status": "Current operation not verified"
+      "coords": [
+        43.15614,
+        -79.35629
+      ],
+      "status": "Current operation not verified",
+      "coordinateSource": "https://mapcarta.com/N6182233788",
+      "coordinateVerifiedAt": "2026-11-27",
+      "coordinateMethod": "Venue point checked against named business and address; not a viewport centre"
     },
     {
       "id": "rpm-bakehouse-lincoln",
@@ -653,6 +696,60 @@
       "name": "Touchdown Willy’s Tap & Grill",
       "town": "West Lincoln",
       "cuisine": "Pub",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "incoho-st-catharines",
+      "name": "Incoho",
+      "town": "St. Catharines",
+      "cuisine": "Canadian",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "edible-options-st-catharines",
+      "name": "Edible Options",
+      "town": "St. Catharines",
+      "cuisine": "Bakery",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "itty-bitty-pie-company-st-catharines",
+      "name": "Itty Bitty Pie Company",
+      "town": "St. Catharines",
+      "cuisine": "Bakery",
+      "address": "18 Secord Drive",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "grazi-cafe-st-catharines",
+      "name": "Grazi Cafe",
+      "town": "St. Catharines",
+      "cuisine": "Café",
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "hometown-ice-cream-st-catharines",
+      "name": "Hometown Ice-cream",
+      "town": "St. Catharines",
+      "cuisine": "Desserts",
+      "address": "142 St. Paul Street",
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "valentinos-st-catharines",
+      "name": "Valentino’s",
+      "town": "St. Catharines",
+      "cuisine": "Italian",
       "address": null,
       "coords": null,
       "status": "Current operation not verified"
@@ -1398,6 +1495,76 @@
       "checkedAt": "2026-11-27",
       "sponsorship": "Unknown",
       "type": "Directory listing; Smithville"
+    },
+    {
+      "id": "mention-075",
+      "venueId": "twenty-kitchen-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/05/13/twenty-restaurant-dessert/",
+      "date": "2019-05-13",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-076",
+      "venueId": "incoho-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/06/13/incoho/",
+      "date": "2019-06-13",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-077",
+      "venueId": "edible-options-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/05/28/edible-options-dessert/",
+      "date": "2019-05-28",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-078",
+      "venueId": "itty-bitty-pie-company-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/05/08/itty-bitty-pie-company/",
+      "date": "2019-05-08",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-079",
+      "venueId": "grazi-cafe-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/05/30/cafe-grazi-dessert/",
+      "date": "2019-05-30",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-080",
+      "venueId": "hometown-ice-cream-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/04/23/hometownicecreammay2019/",
+      "date": "2019-04-23",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
+    },
+    {
+      "id": "mention-081",
+      "venueId": "valentinos-st-catharines",
+      "creatorId": "tastes-of-niagara",
+      "url": "https://tastesofniagara.ca/2019/06/27/valentinos/",
+      "date": "2019-06-27",
+      "checkedAt": "2026-11-27",
+      "sponsorship": "Unknown",
+      "type": "Historical creator article"
     }
   ]
 }

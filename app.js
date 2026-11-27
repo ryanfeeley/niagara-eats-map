@@ -1,0 +1,60 @@
+
+const themeButtons=document.querySelectorAll('[data-theme-mode]');
+function setTheme(mode){if(mode==='system')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=mode;themeButtons.forEach(b=>b.setAttribute('aria-pressed',b.dataset.themeMode===mode));try{localStorage.setItem('niagara-theme',mode)}catch{}}
+setTheme(document.documentElement.dataset.theme||'system');
+themeButtons.forEach(b=>b.addEventListener('click',()=>setTheme(b.dataset.themeMode)));
+try {
+const response=await fetch('./data.json');
+if(!response.ok) throw new Error('Unable to load listings');
+const catalog=await response.json();
+const creators=catalog.creators;
+const data=catalog.venues.map(v=>({...v,mentions:catalog.mentions.filter(m=>m.venueId===v.id).map(m=>({...m,creator:creators.find(c=>c.id===m.creatorId).name}))}));
+const towns=['Fort Erie','Grimsby','Lincoln','Niagara Falls','Niagara-on-the-Lake','Pelham','Port Colborne','St. Catharines','Thorold','Wainfleet','Welland','West Lincoln'];
+const el=id=>document.getElementById(id);function options(id,values,label){el(id).replaceChildren(new Option(label,''),...values.map(v=>new Option(v,v)))}options('town',towns,'All municipalities');options('creator',creators.map(c=>c.name),'All sources');options('cuisine',[...new Set(data.map(d=>d.cuisine))].sort(),'All cuisines');
+let map,layer,userLayer,view='list',userLocation=null,selectedId=null,locationRequest=0;
+function node(tag,txt){const n=document.createElement(tag);n.textContent=txt;return n}function link(txt,url){const a=node('a',txt);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}creators.forEach(c=>{const li=node('li','');li.append(c.url?link(c.name,c.url):node('span',c.name),node('small',' · '+c.kind));el('sources').append(li)});
+
+function distanceKm(a,b){const rad=x=>x*Math.PI/180;const lat=rad(b[0]-a[0]),lon=rad(b[1]-a[1]);const h=Math.sin(lat/2)**2+Math.cos(rad(a[0]))*Math.cos(rad(b[0]))*Math.sin(lon/2)**2;return 6371*2*Math.atan2(Math.sqrt(h),Math.sqrt(Math.max(0,1-h)));}
+function renderMap(rows){
+ if(!window.L){el('map').textContent='Map unavailable. Use the list view.';el('mapNote').textContent='The map library could not load. Restaurant listings are still available.';return;}
+ if(!map){map=L.map('map').setView([43.08,-79.25],10);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);layer=L.layerGroup().addTo(map);userLayer=L.layerGroup().addTo(map);}
+ layer.clearLayers();userLayer.clearLayers();const mapped=rows.filter(d=>d.coords);let selectedMarker;
+ mapped.forEach(d=>{const popup=node('div','');popup.append(link(d.name,'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(d.name+' '+d.address+' '+d.town)),node('p',d.address+' · '+d.town));const button=node('button','View listing');button.type='button';button.onclick=()=>{selectedId=d.id;setView('list');document.getElementById('venue-'+d.id)?.scrollIntoView({block:'center',behavior:'instant'});};popup.append(button);const marker=L.circleMarker(d.coords,{radius:8,color:'#a34219',fillColor:'#dc713d',fillOpacity:.9,weight:2}).bindPopup(popup).addTo(layer);marker.on('click',()=>{selectedId=d.id;});if(selectedId===d.id)selectedMarker=marker;});
+ if(userLocation)L.circleMarker(userLocation,{radius:9,color:'#fff',fillColor:'#2563eb',fillOpacity:1,weight:3}).bindPopup('Your current location').addTo(userLayer);
+ map.invalidateSize();const points=mapped.map(d=>d.coords);if(userLocation)points.push(userLocation);
+ if(selectedMarker){map.setView(selectedMarker.getLatLng(),15);selectedMarker.openPopup();}else if(points.length)map.fitBounds(L.latLngBounds(points),{padding:[28,28],maxZoom:15});else map.setView([43.08,-79.25],10);
+ el('mapNote').textContent=mapped.length+' of '+rows.length+' matching places mapped. '+(rows.length-mapped.length)+' await verified coordinates and remain in the list. Orange markers: venues; blue marker: your location. Map data: OpenStreetMap.';
+}
+el('locateBtn').onclick=()=>{
+ if(!navigator.geolocation){el('locationStatus').textContent='Location is unavailable in this browser. You can still browse by municipality.';return;}
+ const request=++locationRequest;el('locateBtn').disabled=true;el('locationStatus').textContent='Finding your location…';
+ navigator.geolocation.getCurrentPosition(position=>{if(request!==locationRequest)return;userLocation=[position.coords.latitude,position.coords.longitude];selectedId=null;el('locateBtn').disabled=false;el('locateBtn').textContent='Update location';el('clearLocationBtn').hidden=false;el('locationStatus').textContent='Mapped places are sorted nearest first. Distances are straight-line estimates. Unmapped places follow. Your location stays in this browser.';render();},error=>{if(request!==locationRequest)return;el('locateBtn').disabled=false;el('locationStatus').textContent=error.code===1?'Location access is blocked. Allow location in your browser settings, then try again. You can still browse by municipality.':error.code===3?'Finding your location timed out. Please try again.':'Your location could not be determined. Please try again.';},{enableHighAccuracy:false,timeout:10000,maximumAge:60000});
+};
+el('clearLocationBtn').onclick=()=>{++locationRequest;userLocation=null;selectedId=null;el('locateBtn').disabled=false;el('locateBtn').textContent='Use current location';el('clearLocationBtn').hidden=true;el('locationStatus').textContent='Use your location to sort mapped places by distance. Your location stays in this browser.';render();};
+
+function render(){const q=el('search').value.toLowerCase().trim();const rows=data.filter(d=>(d.name+' '+d.town+' '+d.cuisine).toLowerCase().includes(q)&&(!el('town').value||d.town===el('town').value)&&(!el('cuisine').value||d.cuisine===el('cuisine').value)&&(!el('creator').value||d.mentions.some(m=>m.creator===el('creator').value))).sort((a,b)=>(userLocation?((a.coords?distanceKm(userLocation,a.coords):Infinity)-(b.coords?distanceKm(userLocation,b.coords):Infinity)):0)||b.mentions.length-a.mentions.length||a.name.localeCompare(b.name));el('count').textContent=rows.length+' of '+data.length+' places · '+new Set(rows.map(d=>d.town)).size+' municipalities';el('list').replaceChildren();rows.forEach(d=>{
+ const card=node('article','');card.className='item';
+ const top=node('div','');top.className='item-top';
+ const heading=node('div','');heading.className='maincopy';
+ const title=node('h3','');const nameLink=link(d.name,'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(d.name+' '+(d.address||'')+' '+d.town+' Ontario'));nameLink.className='establishment-link';nameLink.setAttribute('aria-label',d.name+' — open in Google Maps');
+ const arrow=document.createElementNS('http://www.w3.org/2000/svg','svg');arrow.setAttribute('viewBox','0 0 16 16');arrow.setAttribute('class','external-mark');arrow.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','M4 12 12 4M5 4h7v7');arrow.append(path);nameLink.append(arrow);title.append(nameLink);heading.append(title);
+ const address=node('p',d.address?d.address+' · '+d.town:d.town);address.className='address';heading.append(address);
+ if(userLocation&&d.coords){const distance=node('p',distanceKm(userLocation,d.coords).toFixed(1)+' km away · straight line');distance.className='distance';heading.append(distance);}
+ if(d.coords){const show=node('button','Show on map');show.className='show-map';show.type='button';show.onclick=()=>{selectedId=d.id;setView('map')};heading.append(show);}
+ card.id='venue-'+d.id;if(selectedId===d.id)card.classList.add('selected');
+ const badge=node('span',d.cuisine);badge.className='cuisine';top.append(heading,badge);card.append(top);
+ const coverage=node('div','');coverage.className='coverage';
+ d.mentions.forEach(m=>{
+  const row=node('div','');row.className='mention';
+  const date=node('div','');date.className='datebox';
+  const when=m.date?new Date(m.date+'T12:00:00Z'):null;
+  const dateText=node('strong',when?when.toLocaleDateString('en-CA',{month:'short',day:'numeric',timeZone:'UTC'}):'Undated');
+  date.append(dateText,node('span',when?String(when.getUTCFullYear()):'Coverage'));
+  const copy=node('div','');copy.className='mention-copy';copy.append(link(m.creator,m.url));
+  const type=node('p',m.type);type.className='mention-type';copy.append(type);
+  const sponsor=node('p','Sponsorship: '+m.sponsorship.toLowerCase());sponsor.className='sponsorship';copy.append(sponsor);row.append(date,copy);coverage.append(row);
+ });card.append(coverage);const status=node('p',d.status);status.className='venue-status';card.append(status);el('list').append(card);
+});if(!rows.length){const empty=node('p','No matching places. Try clearing a filter.');empty.className='empty';el('list').append(empty)};if(view==='map')renderMap(rows);}
+
+function setView(v){view=v;el('list').hidden=v!=='list';el('map').hidden=v!=='map';el('mapNote').hidden=v!=='map';el('listBtn').setAttribute('aria-pressed',v==='list');el('mapBtn').setAttribute('aria-pressed',v==='map');render()}el('listBtn').onclick=()=>setView('list');el('mapBtn').onclick=()=>setView('map');['search','town','creator','cuisine'].forEach(id=>el(id).addEventListener('input',render));render();
+} catch(error) { document.getElementById('count').textContent='Listings could not load. Please refresh to try again.'; console.error(error); }
