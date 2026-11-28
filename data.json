@@ -121,6 +121,18 @@
       "name": "Condé Nast Traveler",
       "url": "https://www.cntraveler.com/story/st-catharines-ontario-surprisingly-cool-city-in-canadian-wine-country",
       "kind": "Travel magazine editorial"
+    },
+    {
+      "id": "edible-toronto",
+      "name": "Edible Toronto",
+      "url": "https://edibletoronto.com/",
+      "kind": "Food magazine editorial"
+    },
+    {
+      "id": "pelhamtoday",
+      "name": "PelhamToday",
+      "url": "https://www.pelhamtoday.ca/",
+      "kind": "Local news / business profile"
     }
   ],
   "venues": [
@@ -545,7 +557,8 @@
       "status": "Current operation not verified",
       "genres": [
         "Pub"
-      ]
+      ],
+      "locality": "Fonthill"
     },
     {
       "id": "notl-bar-restaurant-niagara-on-the-lake",
@@ -1406,7 +1419,8 @@
       "status": "Current operation not verified",
       "genres": [
         "Ice cream & gelato"
-      ]
+      ],
+      "locality": "Fonthill"
     },
     {
       "id": "hi-lite-restaurant-niagara-falls",
@@ -1833,6 +1847,197 @@
       "genres": [
         "Bakery & pastries"
       ]
+    },
+    {
+      "id": "pho-real-pelham",
+      "name": "Pho Real",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Vietnamese",
+      "genres": [
+        "Vietnamese"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "root-bone-pelham",
+      "name": "Root & Bone",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Fine dining",
+      "genres": [
+        "Fine dining",
+        "Canadian"
+      ],
+      "address": "1469 Pelham Street, Fonthill",
+      "coords": null,
+      "status": "Current operation not verified",
+      "website": "https://www.rootandbone.ca/",
+      "addressSource": "https://www.rootandbone.ca/"
+    },
+    {
+      "id": "stoke-deli-bar-pelham",
+      "name": "Stoke Deli Bar",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Deli",
+      "genres": [
+        "Deli & sandwiches",
+        "Café"
+      ],
+      "address": "1501 Pelham Street, Fonthill",
+      "coords": [
+        43.0462882,
+        -79.2852901
+      ],
+      "status": "Business website checked; confirm opening hours before visiting",
+      "website": "https://stokedelibar.ca/home",
+      "addressSource": "https://stokedelibar.ca/home",
+      "coordinateSource": "https://www.openstreetmap.org/way/67956596",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "Exact 1501 Pelham Street address point in Fonthill matched against official Stoke address with one cached Nominatim lookup",
+      "coordinateCache": "sources/geocoding/stoke-deli-bar.json"
+    },
+    {
+      "id": "pelham-street-grille-pelham",
+      "name": "Pelham Street Grille",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Diner",
+      "genres": [
+        "Brunch",
+        "Diner"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified",
+      "website": "https://thepelhamstreetgrille.com/"
+    },
+    {
+      "id": "chois-roll-bowl-pelham",
+      "name": "Choi’s Roll & Bowl",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Korean / Japanese",
+      "genres": [
+        "Korean",
+        "Japanese & sushi"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "italian-peasant-gastro-market-pelham",
+      "name": "Italian Peasant Gastro Market",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Italian",
+      "genres": [
+        "Italian",
+        "Deli & sandwiches",
+        "Pizza"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "cured-tapas-cocktails-pelham",
+      "name": "Cured Tapas & Cocktails",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Charcuterie",
+      "genres": [
+        "Charcuterie & small plates",
+        "Bars & snacks"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "young-thai-pelham",
+      "name": "Young Thai",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Thai",
+      "genres": [
+        "Thai"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "mango-tree-pelham",
+      "name": "Mango Tree",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Thai",
+      "genres": [
+        "Thai"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "kame-kettle-pelham",
+      "name": "Kame & Kettle",
+      "town": "Pelham",
+      "locality": "Fonthill",
+      "cuisine": "Brewery",
+      "genres": [
+        "Brewery",
+        "Burgers",
+        "Pub"
+      ],
+      "address": null,
+      "coords": null,
+      "status": "Current operation not verified"
+    },
+    {
+      "id": "grill-on-canboro-pelham",
+      "name": "Grill on Canboro",
+      "town": "Pelham",
+      "locality": "Fenwick",
+      "cuisine": "Diner",
+      "genres": [
+        "Diner",
+        "Brunch",
+        "Burgers"
+      ],
+      "address": "794 Canboro Road, Fenwick",
+      "coords": [
+        43.024608,
+        -79.3610684
+      ],
+      "status": "Business website checked; confirm opening hours before visiting",
+      "website": "https://www.grilloncanboro.com/",
+      "addressSource": "https://www.grilloncanboro.com/",
+      "coordinateSource": "https://www.grilloncanboro.com/",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "Venue GeoCoordinates and exact Google Maps venue point on official business website"
+    },
+    {
+      "id": "natures-corner-bakery-and-cafe-pelham",
+      "name": "Nature’s Corner Bakery and Cafe",
+      "town": "Pelham",
+      "locality": "Ridgeville",
+      "cuisine": "Bakery",
+      "genres": [
+        "Bakery & pastries",
+        "Café",
+        "Deli & sandwiches"
+      ],
+      "address": "302 Canboro Road, Unit 1A, Ridgeville",
+      "coords": null,
+      "status": "Business website checked; confirm opening hours before visiting",
+      "website": "https://www.naturescorner.ca/",
+      "addressSource": "https://www.naturescorner.ca/"
     }
   ],
   "mentions": [
@@ -3998,6 +4203,187 @@
       "sponsorship": "Unknown",
       "type": "Travel magazine editorial",
       "editorialFamily": "conde-nast"
+    },
+    {
+      "id": "mention-203",
+      "venueId": "pho-real-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-204",
+      "venueId": "root-bone-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-205",
+      "venueId": "stoke-deli-bar-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-206",
+      "venueId": "pelham-street-grille-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-207",
+      "venueId": "chois-roll-bowl-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-208",
+      "venueId": "italian-peasant-gastro-market-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-209",
+      "venueId": "cured-tapas-cocktails-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-210",
+      "venueId": "young-thai-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-211",
+      "venueId": "mango-tree-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-212",
+      "venueId": "kame-kettle-pelham",
+      "creatorId": "ashley-wanders",
+      "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+      "date": "2025-01-19",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food writer / editorial guide",
+      "editorialFamily": "ashley-wanders"
+    },
+    {
+      "id": "mention-213",
+      "venueId": "stoke-deli-bar-pelham",
+      "creatorId": "edible-toronto",
+      "url": "https://edibletoronto.com/stories/meli-melo-july-25/",
+      "date": "2025-08-07",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Food magazine editorial",
+      "editorialFamily": "edible-toronto"
+    },
+    {
+      "id": "mention-214",
+      "venueId": "stoke-deli-bar-pelham",
+      "creatorId": "pelhamtoday",
+      "url": "https://www.pelhamtoday.ca/success/new-cafe-owners-stoked-to-be-in-fonthill-9818897",
+      "date": "2024-11-17",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Community Leaders Program support disclosed; restaurant sponsorship unknown",
+      "type": "Business profile; excluded from food-editorial count"
+    },
+    {
+      "id": "mention-215",
+      "venueId": "stoke-deli-bar-pelham",
+      "creatorId": "business",
+      "url": "https://stokedelibar.ca/home",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
+    },
+    {
+      "id": "mention-216",
+      "venueId": "root-bone-pelham",
+      "creatorId": "business",
+      "url": "https://www.rootandbone.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
+    },
+    {
+      "id": "mention-217",
+      "venueId": "pelham-street-grille-pelham",
+      "creatorId": "business",
+      "url": "https://thepelhamstreetgrille.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
+    },
+    {
+      "id": "mention-218",
+      "venueId": "grill-on-canboro-pelham",
+      "creatorId": "business",
+      "url": "https://www.grilloncanboro.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
+    },
+    {
+      "id": "mention-219",
+      "venueId": "natures-corner-bakery-and-cafe-pelham",
+      "creatorId": "business",
+      "url": "https://www.naturescorner.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
     }
   ],
   "coverageMethodology": {
@@ -4139,6 +4525,24 @@
         "publisherId": "conde-nast",
         "qualifies": true,
         "date": null
+      },
+      {
+        "url": "https://www.ashleywanders.com/2025/01/19/restaurants-in-fonthill/",
+        "publisherId": "ashley-wanders",
+        "qualifies": true,
+        "date": "2025-01-19"
+      },
+      {
+        "url": "https://edibletoronto.com/stories/meli-melo-july-25/",
+        "publisherId": "edible-toronto",
+        "qualifies": true,
+        "date": "2025-08-07"
+      },
+      {
+        "url": "https://www.pelhamtoday.ca/success/new-cafe-owners-stoked-to-be-in-fonthill-9818897",
+        "publisherId": "pelhamtoday",
+        "qualifies": false,
+        "date": "2024-11-17"
       }
     ]
   }
