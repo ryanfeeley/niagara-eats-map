@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "creators": [
     {
       "id": "eating-niagara",
@@ -49,6 +49,12 @@
       "url": "https://www.facebook.com/tastesofniagara",
       "kind": "Creator coverage",
       "website": "https://tastesofniagara.ca/"
+    },
+    {
+      "id": "tourism-stc",
+      "name": "Tourism St. Catharines",
+      "url": "https://lovestc.ca/",
+      "kind": "Tourism editorial"
     }
   ],
   "venues": [
@@ -753,6 +759,24 @@
       "address": null,
       "coords": null,
       "status": "Current operation not verified"
+    },
+    {
+      "id": "the-tangerine-tortoise-st-catharines",
+      "name": "The Tangerine Tortoise",
+      "town": "St. Catharines",
+      "cuisine": "Pizza",
+      "address": "145 Russell Avenue",
+      "coords": [
+        43.1704864,
+        -79.2441595
+      ],
+      "status": "Business website checked; confirm opening hours before visiting",
+      "website": "https://tangerinetortoise.ca/",
+      "addressSource": "https://tangerinetortoise.ca/",
+      "coordinateSource": "https://www.openstreetmap.org/node/1891957825",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "Exact house number and street matched using a single Nominatim lookup, cross-checked with business website; address point, not a viewport centre",
+      "coordinateCache": "sources/geocoding/tangerine-tortoise.json"
     }
   ],
   "mentions": [
@@ -1565,6 +1589,26 @@
       "checkedAt": "2026-11-27",
       "sponsorship": "Unknown",
       "type": "Historical creator article"
+    },
+    {
+      "id": "mention-082",
+      "venueId": "the-tangerine-tortoise-st-catharines",
+      "creatorId": "tourism-stc",
+      "url": "https://lovestc.ca/your-stc-summer-bucket-list/",
+      "date": "2026-04-28",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Tourism editorial"
+    },
+    {
+      "id": "mention-083",
+      "venueId": "the-tangerine-tortoise-st-catharines",
+      "creatorId": "business",
+      "url": "https://tangerinetortoise.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website listing"
     }
   ]
 }
