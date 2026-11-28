@@ -128,7 +128,7 @@
     {
       "venueId": "karma-kameleon-gastropub-thorold",
       "decision": "hold",
-      "reason": "Website says 1 Front Street North; inventory says 2. Do not plot.",
+      "reason": "Reported closed in July 2024; historical inventory entry must not be plotted.",
       "reviewedAt": "2026-11-28",
       "inventoryRecord": {
         "attributes": {
@@ -153,7 +153,8 @@
       "addressSource": "https://www.karmakameleonpub.com",
       "addressExcerpts": [
         "on-9pm CONTACT US TEL  905 227-2233 \n\n ADDRESS  1 Front Street North, Thorold Ontario L2V 1X3 © 2016 by Karma Kameleon  \n bottom of pag"
-      ]
+      ],
+      "statusSource": "https://www.thoroldtoday.ca/local-news/karma-kameleon-on-front-street-abruptly-closes-doors-9195390"
     },
     {
       "venueId": "bricks-barley-niagara-on-the-lake",
@@ -1807,7 +1808,7 @@
     {
       "venueId": "homestead-donuts-thorold",
       "decision": "hold",
-      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reason": "Reported closed in July 2024; historical inventory entry must not be plotted.",
       "reviewedAt": "2026-11-28",
       "inventoryRecord": {
         "attributes": {
@@ -1830,7 +1831,8 @@
         }
       },
       "addressSource": "https://www.homestead.morcor.ca",
-      "addressExcerpts": []
+      "addressExcerpts": [],
+      "statusSource": "https://www.pelhamtoday.ca/local-news/another-thorold-eatery-closes-9210147"
     },
     {
       "venueId": "beamsville-bakery-lincoln",
@@ -3008,6 +3010,366 @@
       "addressSource": "https://spicythai.ca/contact/",
       "addressExcerpts": [
         "208 Church Street, St. Catharines"
+      ]
+    },
+    {
+      "venueId": "cracker-jacks-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92273,
+          "nei_id": 436,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Cracker Jack's Bar and Grill",
+          "businessstreetnumber": "207 ",
+          "businessstreetname": "Keefer Road",
+          "businessunit": null,
+          "businesspostalcode": "L2V4N3",
+          "businesswebsite": "www.crackerjacksthorold.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.21818797952264,
+          "y": 43.109705315881016
+        }
+      },
+      "addressSource": "https://crackerjacksthorold.com/",
+      "addressExcerpts": [
+        "207 Keefer Road"
+      ]
+    },
+    {
+      "venueId": "the-overtime-pub-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93510,
+          "nei_id": 53,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "The Overtime Pub",
+          "businessstreetnumber": "206",
+          "businessstreetname": "Richmond Street",
+          "businessunit": null,
+          "businesspostalcode": "L2V4L8",
+          "businesswebsite": "www.theovertimepub.ca",
+          "primarynaics": 722410,
+          "industry": "Drinking places (alcoholic beverages)"
+        },
+        "geometry": {
+          "x": -79.218014737525,
+          "y": 43.11749868989454
+        }
+      },
+      "addressSource": "https://www.theovertimepub.ca/",
+      "addressExcerpts": [
+        "206 Richmond Street"
+      ]
+    },
+    {
+      "venueId": "big-red-market-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94689,
+          "nei_id": 421,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Big Red Market",
+          "businessstreetnumber": "206",
+          "businessstreetname": "Richmond Street",
+          "businessunit": null,
+          "businesspostalcode": "L2V4L8",
+          "businesswebsite": "www.bigredmarkets.com",
+          "primarynaics": 445240,
+          "industry": "Meat markets"
+        },
+        "geometry": {
+          "x": -79.218014737525,
+          "y": 43.11749868989454
+        }
+      },
+      "addressSource": "https://bigredmarkets.com/contact-us/",
+      "addressExcerpts": [
+        "206 Richmond Street"
+      ]
+    },
+    {
+      "venueId": "the-burgh-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory. Survey omits West in Albert Street; official business site and BIA specify 1 Albert Street West.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87069,
+          "nei_id": 40036,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "The Burgh",
+          "businessstreetnumber": "1",
+          "businessstreetname": "Albert Street",
+          "businessunit": null,
+          "businesspostalcode": "L2V1W8",
+          "businesswebsite": "www.theburgh.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.20115466320577,
+          "y": 43.124914312151425
+        }
+      },
+      "addressSource": "https://theburgh.ca/",
+      "addressExcerpts": [
+        "1 Albert Street West"
+      ]
+    },
+    {
+      "venueId": "jc-patissier-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92354,
+          "nei_id": 40035,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "JC Patissier",
+          "businessstreetnumber": "33",
+          "businessstreetname": "Front Street S",
+          "businessunit": null,
+          "businesspostalcode": "L2V1W8",
+          "businesswebsite": null,
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.20084164541375,
+          "y": 43.12414299461728
+        }
+      },
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressExcerpts": [
+        "33 Front Street South"
+      ]
+    },
+    {
+      "venueId": "papa-vince-pizza-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91663,
+          "nei_id": 73,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Papa Vince Pizza",
+          "businessstreetnumber": "2A",
+          "businessstreetname": "Sullivan Avenue",
+          "businessunit": "1",
+          "businesspostalcode": "L2V2X9",
+          "businesswebsite": "www.papavincepizza.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.20102184764508,
+          "y": 43.123627288513305
+        }
+      },
+      "addressSource": "https://www.papavincepizza.com/",
+      "addressExcerpts": [
+        "2A Sullivan Avenue"
+      ]
+    },
+    {
+      "venueId": "donnellys-pub-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84696,
+          "nei_id": 173,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Donnelly's Pub",
+          "businessstreetnumber": "54 ",
+          "businessstreetname": "Front Street South",
+          "businessunit": null,
+          "businesspostalcode": "L2V1X1",
+          "businesswebsite": "www.donnellyspub.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.20025946750222,
+          "y": 43.12329959519035
+        }
+      },
+      "addressSource": "https://donnellyspub.com/",
+      "addressExcerpts": [
+        "54 Front Street South"
+      ]
+    },
+    {
+      "venueId": "coatesys-kitchen-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory. Inventory 50 Front Street South unit A is written 50A by the business and BIA.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95105,
+          "nei_id": 40038,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Coatesy's Kitchen",
+          "businessstreetnumber": "50",
+          "businessstreetname": "Front Street South",
+          "businessunit": "A",
+          "businesspostalcode": "L2V1W9",
+          "businesswebsite": null,
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.20033996192987,
+          "y": 43.12383912789081
+        }
+      },
+      "addressSource": "https://www.coatesyskitchen.ca/",
+      "addressExcerpts": [
+        "50A Front Street South"
+      ]
+    },
+    {
+      "venueId": "pho-18-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93252,
+          "nei_id": 13004,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Pho 18",
+          "businessstreetnumber": "18",
+          "businessstreetname": "Clairmont Street",
+          "businessunit": "8",
+          "businesspostalcode": "L2V1R1",
+          "businesswebsite": "www.pho18fusion.com/",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.19917516852911,
+          "y": 43.123800549157956
+        }
+      },
+      "addressSource": "https://pho18fusion.com/",
+      "addressExcerpts": [
+        "18 Clairmont Street"
+      ]
+    },
+    {
+      "venueId": "johns-meat-shop-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94411,
+          "nei_id": 9121,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "John's Meat Shop",
+          "businessstreetnumber": "28",
+          "businessstreetname": "Pine Street South",
+          "businessunit": null,
+          "businesspostalcode": "L2V3L2",
+          "businesswebsite": null,
+          "primarynaics": 445240,
+          "industry": "Meat markets"
+        },
+        "geometry": {
+          "x": -79.20289310311601,
+          "y": 43.123639606148416
+        }
+      },
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressExcerpts": [
+        "28 Pine Street South"
+      ]
+    },
+    {
+      "venueId": "bezos-bar-and-grill-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85791,
+          "nei_id": 12900,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Bezos Bar and Grill Restaurant ",
+          "businessstreetnumber": "19",
+          "businessstreetname": "Front Street North",
+          "businessunit": null,
+          "businesspostalcode": "L2V1X3",
+          "businesswebsite": "www.bezos-bar-and-grill.business.site",
+          "primarynaics": 722410,
+          "industry": "Drinking places (alcoholic beverages)"
+        },
+        "geometry": {
+          "x": -79.20107853814754,
+          "y": 43.12594450069047
+        }
+      },
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressExcerpts": [
+        "19 Front Street North"
+      ]
+    },
+    {
+      "venueId": "harrys-new-york-bar-thorold",
+      "decision": "accepted",
+      "reason": "Business name, municipality and address match current business website or Thorold BIA directory.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84636,
+          "nei_id": 49,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Harry's New York Bar ",
+          "businessstreetnumber": "1",
+          "businessstreetname": "Front Street South",
+          "businessunit": null,
+          "businesspostalcode": "L2V1W8",
+          "businesswebsite": null,
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.20090866427041,
+          "y": 43.124880441258114
+        }
+      },
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressExcerpts": [
+        "1 Front Street South"
       ]
     }
   ],

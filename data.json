@@ -139,6 +139,30 @@
       "name": "Reddit community",
       "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
       "kind": "Community suggestions; not critic coverage"
+    },
+    {
+      "id": "thorold-bia",
+      "name": "Thorold BIA",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "kind": "Local business directory; not critic coverage"
+    },
+    {
+      "id": "thoroldtoday",
+      "name": "ThoroldToday",
+      "url": "https://www.thoroldtoday.ca/",
+      "kind": "Local news / business reporting; not critic reviews"
+    },
+    {
+      "id": "niagara-public-health",
+      "name": "Niagara Region Public Health",
+      "url": "https://www.niagararegion.ca/health/inspect/",
+      "kind": "Official address / inspection record; not an endorsement"
+    },
+    {
+      "id": "felicia-bouchier",
+      "name": "Felicia Bouchier",
+      "url": "https://www.feliciabouchier.com/",
+      "kind": "Personal café blog; not professional critic coverage"
     }
   ],
   "venues": [
@@ -236,12 +260,15 @@
       "name": "Karma Kameleon Gastropub",
       "town": "Thorold",
       "cuisine": "Pub",
-      "address": null,
+      "address": "1 Front Street North",
       "coords": null,
-      "status": "Current operation not verified",
+      "status": "Reported permanently closed in July 2024; historical coverage retained",
       "genres": [
         "Pub"
-      ]
+      ],
+      "operatingStatus": "reported-closed",
+      "statusSource": "https://www.thoroldtoday.ca/local-news/karma-kameleon-on-front-street-abruptly-closes-doors-9195390",
+      "statusCheckedAt": "2026-11-28"
     },
     {
       "id": "bricks-barley-niagara-on-the-lake",
@@ -1582,10 +1609,13 @@
       "cuisine": "Doughnuts",
       "address": "26 Pine Street South",
       "coords": null,
-      "status": "Current operation not verified",
+      "status": "Reported permanently closed in July 2024; historical coverage retained",
       "genres": [
         "Doughnuts"
-      ]
+      ],
+      "operatingStatus": "reported-closed",
+      "statusSource": "https://www.pelhamtoday.ca/local-news/another-thorold-eatery-closes-9210147",
+      "statusCheckedAt": "2026-11-28"
     },
     {
       "id": "beamsville-bakery-lincoln",
@@ -2548,6 +2578,385 @@
       "coordinateVerifiedAt": "2026-11-28",
       "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
       "locationDatasetYear": 2025
+    },
+    {
+      "id": "cracker-jacks-thorold",
+      "name": "Cracker Jacks Bar & Grill",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": "207 Keefer Road",
+      "coords": [
+        43.109705315881016,
+        -79.21818797952264
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pub",
+        "Burgers"
+      ],
+      "addressSource": "https://crackerjacksthorold.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://crackerjacksthorold.com/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D92273&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "the-overtime-pub-thorold",
+      "name": "The Overtime Pub",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": "206 Richmond Street",
+      "coords": [
+        43.11749868989454,
+        -79.218014737525
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pub",
+        "Pizza"
+      ],
+      "addressSource": "https://www.theovertimepub.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://www.theovertimepub.ca/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93510&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "big-red-market-thorold",
+      "name": "Big Red Market",
+      "town": "Thorold",
+      "cuisine": "Deli",
+      "address": "206 Richmond Street",
+      "coords": [
+        43.11749868989454,
+        -79.218014737525
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://bigredmarkets.com/contact-us/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://bigredmarkets.com/contact-us/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D94689&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "the-burgh-thorold",
+      "name": "The Burgh",
+      "town": "Thorold",
+      "cuisine": "Burgers",
+      "address": "1 Albert Street West",
+      "coords": [
+        43.124914312151425,
+        -79.20115466320577
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Burgers",
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://theburgh.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://theburgh.ca/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D87069&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "jc-patissier-thorold",
+      "name": "JC Patissier",
+      "town": "Thorold",
+      "cuisine": "Bakery",
+      "address": "33 Front Street South",
+      "coords": [
+        43.12414299461728,
+        -79.20084164541375
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Bakery & pastries",
+        "Café",
+        "Ice cream & gelato"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D92354&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "papa-vince-pizza-thorold",
+      "name": "Papa Vince Pizza",
+      "town": "Thorold",
+      "cuisine": "Pizza",
+      "address": "2A Sullivan Avenue",
+      "coords": [
+        43.123627288513305,
+        -79.20102184764508
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pizza",
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://www.papavincepizza.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://www.papavincepizza.com/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91663&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "donnellys-pub-thorold",
+      "name": "Donnelly’s Pub",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": "54 Front Street South",
+      "coords": [
+        43.12329959519035,
+        -79.20025946750222
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pub"
+      ],
+      "addressSource": "https://donnellyspub.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://donnellyspub.com/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D84696&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "coatesys-kitchen-thorold",
+      "name": "Coatesy’s Kitchen",
+      "town": "Thorold",
+      "cuisine": "Deli",
+      "address": "50A Front Street South",
+      "coords": [
+        43.12383912789081,
+        -79.20033996192987
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://www.coatesyskitchen.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://www.coatesyskitchen.ca/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D95105&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "pho-18-thorold",
+      "name": "Pho 18",
+      "town": "Thorold",
+      "cuisine": "Vietnamese",
+      "address": "18 Clairmont Street",
+      "coords": [
+        43.123800549157956,
+        -79.19917516852911
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Vietnamese"
+      ],
+      "addressSource": "https://pho18fusion.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://pho18fusion.com/",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93252&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "chef-and-bub-thorold",
+      "name": "Chef and Bub Cafe + Eatery",
+      "town": "Thorold",
+      "cuisine": "Café",
+      "address": "28 Front Street South",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Café",
+        "Ice cream & gelato",
+        "Sweet treats",
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://chefandbub.com/pages/visit-us",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://chefandbub.com/pages/visit-us"
+    },
+    {
+      "id": "avo-and-co-thorold",
+      "name": "Avo & Co.",
+      "town": "Thorold",
+      "cuisine": "Café",
+      "address": "47 Front Street South",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Café",
+        "Brunch"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://avoandco.ca/"
+    },
+    {
+      "id": "whisk-matcha-cafe-thorold",
+      "name": "Whisk Matcha Café by Avo & Co.",
+      "town": "Thorold",
+      "cuisine": "Café",
+      "address": "51 Front Street South",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Café",
+        "Matcha & tea"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28"
+    },
+    {
+      "id": "castillo-shawarma-thorold",
+      "name": "Castillo Shawarma",
+      "town": "Thorold",
+      "cuisine": "Middle Eastern",
+      "address": "46 Front Street North",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Middle Eastern"
+      ],
+      "addressSource": "https://castilloshawarma.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://castilloshawarma.ca/"
+    },
+    {
+      "id": "fusion-on-front-thorold",
+      "name": "Fusion on Front",
+      "town": "Thorold",
+      "cuisine": "Mediterranean",
+      "address": "1 Front Street North",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Mediterranean",
+        "Seafood"
+      ],
+      "addressSource": "https://www.fusiononfront.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://www.fusiononfront.ca/"
+    },
+    {
+      "id": "pennys-kitchen-thorold",
+      "name": "Penny’s Kitchen — Thorold",
+      "town": "Thorold",
+      "cuisine": "Diner",
+      "address": "26 Front Street North",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Diner",
+        "Brunch"
+      ],
+      "addressSource": "https://pennyskitchen.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "website": "https://pennyskitchen.ca/"
+    },
+    {
+      "id": "johns-meat-shop-thorold",
+      "name": "John’s Meat Shop",
+      "town": "Thorold",
+      "cuisine": "Italian deli",
+      "address": "28 Pine Street South",
+      "coords": [
+        43.123639606148416,
+        -79.20289310311601
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Italian",
+        "Deli & sandwiches"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D94411&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "bezos-bar-and-grill-thorold",
+      "name": "Bezo’s Bar and Grill",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": "19 Front Street North",
+      "coords": [
+        43.12594450069047,
+        -79.20107853814754
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pub"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85791&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "harrys-new-york-bar-thorold",
+      "name": "Harry’s New York Bar",
+      "town": "Thorold",
+      "cuisine": "Pub",
+      "address": "1 Front Street South",
+      "coords": [
+        43.124880441258114,
+        -79.20090866427041
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Pub"
+      ],
+      "addressSource": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D84636&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point in WGS84; business identity and address manually matched to business website or current Thorold BIA listing. Approximate business location, not an entrance pin.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "the-essential-cafe-thorold",
+      "name": "The Essential Café & Bakery",
+      "town": "Thorold",
+      "cuisine": "Café",
+      "address": "3490 Schmon Parkway, Unit 1B (Building 7)",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Café",
+        "Bakery & pastries"
+      ],
+      "addressSource": "https://www.niagararegion.ca/health/inspect/inspection.aspx?id=3D6D2499-C1D5-48F2-B280-D95C3F158C37",
+      "addressVerifiedAt": "2026-11-28",
+      "locality": "West Thorold / Schmon Parkway"
     }
   ],
   "mentions": [
@@ -4994,6 +5403,376 @@
       "checkedAt": "2026-11-28",
       "sponsorship": "Unknown",
       "type": "Business website; address verification"
+    },
+    {
+      "id": "mention-230",
+      "venueId": "cracker-jacks-thorold",
+      "creatorId": "business",
+      "url": "https://crackerjacksthorold.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-231",
+      "venueId": "the-overtime-pub-thorold",
+      "creatorId": "business",
+      "url": "https://www.theovertimepub.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-232",
+      "venueId": "big-red-market-thorold",
+      "creatorId": "business",
+      "url": "https://bigredmarkets.com/contact-us/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-233",
+      "venueId": "the-burgh-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-234",
+      "venueId": "the-burgh-thorold",
+      "creatorId": "business",
+      "url": "https://theburgh.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-235",
+      "venueId": "jc-patissier-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-236",
+      "venueId": "papa-vince-pizza-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-237",
+      "venueId": "papa-vince-pizza-thorold",
+      "creatorId": "business",
+      "url": "https://www.papavincepizza.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-238",
+      "venueId": "donnellys-pub-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-239",
+      "venueId": "donnellys-pub-thorold",
+      "creatorId": "business",
+      "url": "https://donnellyspub.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-240",
+      "venueId": "coatesys-kitchen-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-241",
+      "venueId": "coatesys-kitchen-thorold",
+      "creatorId": "business",
+      "url": "https://www.coatesyskitchen.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-242",
+      "venueId": "pho-18-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-243",
+      "venueId": "pho-18-thorold",
+      "creatorId": "business",
+      "url": "https://pho18fusion.com/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-244",
+      "venueId": "chef-and-bub-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-245",
+      "venueId": "chef-and-bub-thorold",
+      "creatorId": "business",
+      "url": "https://chefandbub.com/pages/visit-us",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-246",
+      "venueId": "avo-and-co-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-247",
+      "venueId": "avo-and-co-thorold",
+      "creatorId": "business",
+      "url": "https://avoandco.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-248",
+      "venueId": "whisk-matcha-cafe-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-249",
+      "venueId": "castillo-shawarma-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-250",
+      "venueId": "castillo-shawarma-thorold",
+      "creatorId": "business",
+      "url": "https://castilloshawarma.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-251",
+      "venueId": "fusion-on-front-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-252",
+      "venueId": "fusion-on-front-thorold",
+      "creatorId": "business",
+      "url": "https://www.fusiononfront.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-253",
+      "venueId": "pennys-kitchen-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-254",
+      "venueId": "pennys-kitchen-thorold",
+      "creatorId": "business",
+      "url": "https://pennyskitchen.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; Thorold location and menu"
+    },
+    {
+      "id": "mention-255",
+      "venueId": "johns-meat-shop-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-256",
+      "venueId": "bezos-bar-and-grill-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-257",
+      "venueId": "harrys-new-york-bar-thorold",
+      "creatorId": "thorold-bia",
+      "url": "https://thoroldbia.com/pages/restaurants-bars-food",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business directory listing; not critic coverage"
+    },
+    {
+      "id": "mention-258",
+      "venueId": "the-essential-cafe-thorold",
+      "creatorId": "niagara-public-health",
+      "url": "https://www.niagararegion.ca/health/inspect/inspection.aspx?id=3D6D2499-C1D5-48F2-B280-D95C3F158C37",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Official address record; inspection history is not a dining endorsement"
+    },
+    {
+      "id": "mention-259",
+      "venueId": "karma-kameleon-gastropub-thorold",
+      "creatorId": "thoroldtoday",
+      "url": "https://www.thoroldtoday.ca/local-news/karma-kameleon-on-front-street-abruptly-closes-doors-9195390",
+      "date": "2024-07-09",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Closure reporting; historical business, not a current recommendation"
+    },
+    {
+      "id": "mention-260",
+      "venueId": "homestead-donuts-thorold",
+      "creatorId": "pelhamtoday",
+      "url": "https://www.pelhamtoday.ca/local-news/another-thorold-eatery-closes-9210147",
+      "date": "2024-07-12",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Closure reporting; historical business, not a current recommendation"
+    },
+    {
+      "id": "mention-261",
+      "venueId": "jc-patissier-thorold",
+      "creatorId": "thoroldtoday",
+      "url": "https://www.thoroldtoday.ca/local-news/local-couple-launches-gelato-shop-in-downtown-thorold-10903330",
+      "date": "2025-07-05",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Local business reporting: bakery’s gelato expansion; not a critic review"
+    },
+    {
+      "id": "mention-262",
+      "venueId": "jc-patissier-thorold",
+      "creatorId": "felicia-bouchier",
+      "url": "https://www.feliciabouchier.com/blog/jc-patissier-review-one-of-niagaras-best-cafes",
+      "date": "2026-05-09",
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Personal café review; not professional critic coverage"
+    },
+    {
+      "id": "mention-263",
+      "venueId": "pho-18-thorold",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1xpjxt1/best_pho_in_the_city/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-264",
+      "venueId": "big-red-market-thorold",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1bd2g8v/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community deli suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-265",
+      "venueId": "the-burgh-thorold",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1e6do5r/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community sandwich suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-266",
+      "venueId": "cracker-jacks-thorold",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/niagara/comments/sbz41c/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community lunch suggestion; not critic coverage"
     }
   ],
   "coverageMethodology": {
@@ -5163,7 +5942,7 @@
     "service": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45",
     "attribution": "Contains information licensed under the Open Government Licence – Niagara Region.",
     "license": "https://niagaraopendata.ca/pages/open-government-license-2-0-niagara-region",
-    "method": "Unique name/municipality candidates and manually reviewed aliases; current business website address required before accepting a business point. Existing sourced points retained. Conflicts and unavailable websites held for review. Survey points are approximate business locations, not entrance or navigation pins.",
+    "method": "Unique name/municipality candidates and manually reviewed aliases; business website or authoritative current local directory address required before accepting a business point. Existing sourced points retained. Conflicts, relocations and reported closures held for review. Survey points are approximate business locations, not entrance or navigation pins.",
     "audit": "sources/nei/location-review.json",
     "communitySource": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
     "communityPolicy": "Community suggestions are discovery leads and excluded from editorial outlet counts. No bulk import of all inventory businesses."

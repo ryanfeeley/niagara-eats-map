@@ -4,7 +4,7 @@ function setTheme(mode){if(mode==='system')delete document.documentElement.datas
 setTheme(document.documentElement.dataset.theme||'system');
 themeButtons.forEach(b=>b.addEventListener('click',()=>setTheme(b.dataset.themeMode)));
 try {
-const response=await fetch('./data.json');
+const response=await fetch('./data.json',{cache:'no-cache'});
 if(!response.ok) throw new Error('Unable to load listings');
 const catalog=await response.json();
 const creators=catalog.creators;

@@ -1,0 +1,79 @@
+{
+  "reviewedAt": "2026-11-28",
+  "town": "Thorold",
+  "beforeListings": 2,
+  "addedVenueIds": [
+    "cracker-jacks-thorold",
+    "the-overtime-pub-thorold",
+    "big-red-market-thorold",
+    "the-burgh-thorold",
+    "jc-patissier-thorold",
+    "papa-vince-pizza-thorold",
+    "donnellys-pub-thorold",
+    "coatesys-kitchen-thorold",
+    "pho-18-thorold",
+    "chef-and-bub-thorold",
+    "avo-and-co-thorold",
+    "whisk-matcha-cafe-thorold",
+    "castillo-shawarma-thorold",
+    "fusion-on-front-thorold",
+    "pennys-kitchen-thorold",
+    "johns-meat-shop-thorold",
+    "bezos-bar-and-grill-thorold",
+    "harrys-new-york-bar-thorold",
+    "the-essential-cafe-thorold"
+  ],
+  "afterListings": 21,
+  "reportedClosedVenueIds": [
+    "karma-kameleon-gastropub-thorold",
+    "homestead-donuts-thorold"
+  ],
+  "method": "Current business sites, Thorold BIA directory and official address records reviewed; historical regional points accepted only for matching business identity and address. BIA, local news and personal/community coverage do not add professional editorial outlet counts. No Instagram/Facebook posts imported when inaccessible.",
+  "coordinateHolds": [
+    {
+      "venueId": "chef-and-bub-thorold",
+      "reason": "Current business/BIA: 28 Front Street South. Survey: 44 Front Street North. Do not reuse the old point."
+    },
+    {
+      "venueId": "castillo-shawarma-thorold",
+      "reason": "Current website and BIA: 46 Front Street North. No matching 2025 business point; do not reuse predecessor Thorold Fish and Chips."
+    },
+    {
+      "venueId": "fusion-on-front-thorold",
+      "reason": "Current 1 Front Street North. Do not transfer Karma Kameleon survey point (which also has a street-number conflict)."
+    },
+    {
+      "venueId": "pennys-kitchen-thorold",
+      "reason": "26 Front Street North verified by business/BIA. Do not reuse predecessor Cosmo’s Diner point."
+    },
+    {
+      "venueId": "avo-and-co-thorold",
+      "reason": "Thorold BIA lists 47 Front Street South; no matching Thorold survey record. Keep separate from Niagara-on-the-Lake branch."
+    },
+    {
+      "venueId": "whisk-matcha-cafe-thorold",
+      "reason": "Thorold BIA lists 51 Front Street South; no matching business point."
+    },
+    {
+      "venueId": "the-essential-cafe-thorold",
+      "reason": "Official record gives unit 1B at 3490 Schmon Parkway; inventory unit 7/building 7 requires clarification before plotting."
+    }
+  ],
+  "excludedLeads": [
+    {
+      "name": "Riganelli’s Bakery",
+      "reason": "Closure and demolition reported; not added as a current place.",
+      "source": "https://www.thoroldtoday.ca/local-news/riganellis-bakery-torn-down-on-monday-morning-3-photos-5011313"
+    },
+    {
+      "name": "Hazel Market x Blossom Bakery",
+      "reason": "August 2026 reporting says temporarily closed after collision; reopening not confirmed.",
+      "source": "https://www.pelhamtoday.ca/local-news/thorold-businesses-closed-temporarily-after-hit-and-run-accident-early-sunday-morning-12674186"
+    },
+    {
+      "name": "Early Bird Restaurant",
+      "reason": "Official business address and regional inventory place 2 Merritt Street in St. Catharines, despite Thorold references in recommendations; not added to Thorold.",
+      "source": "https://earlybirdrestaurant.ca/"
+    }
+  ]
+}
