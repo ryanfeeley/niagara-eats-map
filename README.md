@@ -1,6 +1,6 @@
 # Niagara Eats Map
 
-A mobile-first restaurant discovery directory with search, municipality, source and cuisine filters, published through GitHub Pages from the root of `main`.
+A mobile-first restaurant discovery directory with search, municipality, source and specialty filters, published through GitHub Pages from the root of `main`.
 
 ## Listings
 
@@ -36,7 +36,7 @@ The **Most covered by genre** panel counts distinct qualifying editorial outlets
 
 `coverageMethodology` in `data.json` records scope, inclusion rules and the 25 additional documents reviewed in this expansion. The audit added 61 previously missing establishments and more sources for existing places. Genre tags allow searching or filtering doughnuts (including the spelling “donuts”), butter tarts, ice cream/gelato, pastries and cuisines. Single-outlet categories are explicitly labeled as limited evidence. Qualification of magazine/blog editorial does not establish that visits were paid for independently; sponsorship remains unknown unless disclosed.
 
-The **Genre & treats** filter works together with municipality, source and cuisine. Lists default to nearest first. Mapped venues appear in ascending straight-line distance, with equal distances and unmapped venues ordered alphabetically. While location is pending, blocked, unavailable or cleared, the list uses alphabetical order and explains how to enable distance sorting. Editorial outlet counts only order the separate genre comparison. The report can be reproduced using `node scripts/coverage-report.mjs`.
+The **Specialty** menu combines cuisine and genre/treat tags into one alphabetized, deduplicated list. A selection matches either the venue’s cuisine or one of its genre tags, and works together with municipality, source and search. Genre comparison links select the corresponding specialty. Lists default to nearest first. Mapped venues appear in ascending straight-line distance, with equal distances and unmapped venues ordered alphabetically. While location is pending, blocked, unavailable or cleared, the list uses alphabetical order and explains how to enable distance sorting. Editorial outlet counts only order the separate genre comparison. The report can be reproduced using `node scripts/coverage-report.mjs`.
 
 The Pelham expansion adds ten Fonthill places from Ashley Wanders' local food guide, plus Grill on Canboro (Fenwick) and Nature’s Corner Bakery and Cafe (Ridgeville), bringing Pelham from two to fourteen listings. Stoke also has Edible Toronto food coverage and a separately labeled PelhamToday business profile. That profile discloses Community Leaders Program support and is excluded from the food-editorial count. Business websites are likewise excluded. Locality tags keep Fonthill, Fenwick and Ridgeville searchable within the Pelham municipality. Stoke and Grill on Canboro have sourced map points; other new venues await verified coordinates.
 
