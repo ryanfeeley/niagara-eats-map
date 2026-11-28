@@ -16,6 +16,8 @@ Serve the repository over HTTP (for example `python -m http.server 8000`) and op
 
 Run `node scripts/validate-data.mjs` before publishing. This checks unique IDs, source references, duplicate venues/mentions, municipality names, URLs and date fields, and requires coordinate provenance before plotting new markers.
 
+After changing `app.js` or `styles.css`, run `node scripts/version-assets.mjs` and commit the updated `index.html` with the assets. Run `node scripts/version-assets.mjs --check` before publishing. Content-based version URLs prevent the browser from combining the Specialty markup with a cached older filter script; GitHub Pages caches assets for ten minutes. Verify the deployed page in a browser as well as locally.
+
 ## Design
 
 The interface follows the compact panels, typography, responsive card grid and theme controls of [DineSafe Nearby](https://dinesafe.ryanfeeley.com/), with a distinct burnt-orange palette and custom burger icon. `styles.css` holds the design tokens and responsive layouts; `burger.svg` is the favicon. The theme switch supports the system preference and persists an explicit light or dark selection locally.
