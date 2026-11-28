@@ -14,6 +14,7 @@ for (const venue of data.venues) {
   assert(!names.has(key), `Duplicate venue: ${venue.name}`); names.add(key);
   assert(data.mentions.some(m => m.venueId === venue.id), `Missing source: ${venue.name}`);
   assert(venue.status && venue.name && venue.cuisine);
+  assert(Array.isArray(venue.genres) && venue.genres.length && new Set(venue.genres).size === venue.genres.length, 'Venues need unique genre tags');
   // Coordinates require a recorded verification source before they can be plotted.
   if (venue.coords !== null) {
     assert(venue.coordinateSource && new URL(venue.coordinateSource).protocol === 'https:');
@@ -25,6 +26,7 @@ for (const venue of data.venues) {
 const mentionKeys = new Set();
 for (const mention of data.mentions) {
   assert(venues.has(mention.venueId) && creators.has(mention.creatorId), 'Broken source reference');
+  if(mention.editorialFamily) assert(mention.editorialFamily === mention.creatorId, 'Editorial counts must resolve to the original outlet');
   assert.equal(new URL(mention.url).protocol, 'https:');
   assert(mention.type && mention.sponsorship && /^\d{4}-\d{2}-\d{2}$/.test(mention.checkedAt));
   assert(mention.date === null || /^\d{4}-\d{2}-\d{2}$/.test(mention.date));

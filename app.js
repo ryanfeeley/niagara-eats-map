@@ -9,8 +9,10 @@ if(!response.ok) throw new Error('Unable to load listings');
 const catalog=await response.json();
 const creators=catalog.creators;
 const data=catalog.venues.map(v=>({...v,mentions:catalog.mentions.filter(m=>m.venueId===v.id).map(m=>({...m,creator:creators.find(c=>c.id===m.creatorId).name}))}));
+function editorialOutlets(venue){return new Set(venue.mentions.filter(m=>m.editorialFamily).map(m=>m.editorialFamily));}
+const genres=[...new Set(data.flatMap(v=>v.genres||[v.cuisine]))].sort();
 const towns=['Fort Erie','Grimsby','Lincoln','Niagara Falls','Niagara-on-the-Lake','Pelham','Port Colborne','St. Catharines','Thorold','Wainfleet','Welland','West Lincoln'];
-const el=id=>document.getElementById(id);function options(id,values,label){el(id).replaceChildren(new Option(label,''),...values.map(v=>new Option(v,v)))}options('town',towns,'All municipalities');options('creator',creators.map(c=>c.name),'All sources');options('cuisine',[...new Set(data.map(d=>d.cuisine))].sort(),'All cuisines');
+const el=id=>document.getElementById(id);function options(id,values,label){el(id).replaceChildren(new Option(label,''),...values.map(v=>new Option(v,v)))}options('genre',genres,'All genres & treats');options('town',towns,'All municipalities');options('creator',creators.map(c=>c.name),'All sources');options('cuisine',[...new Set(data.map(d=>d.cuisine))].sort(),'All cuisines');
 let map,layer,userLayer,view='list',userLocation=null,selectedId=null,locationRequest=0;
 function node(tag,txt){const n=document.createElement(tag);n.textContent=txt;return n}function link(txt,url){const a=node('a',txt);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}creators.forEach(c=>{const li=node('li','');li.append(c.url?link(c.name,c.url):node('span',c.name),node('small',' · '+c.kind));el('sources').append(li)});
 
@@ -32,7 +34,14 @@ el('locateBtn').onclick=()=>{
 };
 el('clearLocationBtn').onclick=()=>{++locationRequest;userLocation=null;selectedId=null;el('locateBtn').disabled=false;el('locateBtn').textContent='Use current location';el('clearLocationBtn').hidden=true;el('locationStatus').textContent='Use your location to sort mapped places by distance. Your location stays in this browser.';render();};
 
-function render(){const q=el('search').value.toLowerCase().trim();const rows=data.filter(d=>(d.name+' '+d.town+' '+d.cuisine).toLowerCase().includes(q)&&(!el('town').value||d.town===el('town').value)&&(!el('cuisine').value||d.cuisine===el('cuisine').value)&&(!el('creator').value||d.mentions.some(m=>m.creator===el('creator').value))).sort((a,b)=>(userLocation?((a.coords?distanceKm(userLocation,a.coords):Infinity)-(b.coords?distanceKm(userLocation,b.coords):Infinity)):0)||b.mentions.length-a.mentions.length||a.name.localeCompare(b.name));el('count').textContent=rows.length+' of '+data.length+' places · '+new Set(rows.map(d=>d.town)).size+' municipalities';el('list').replaceChildren();rows.forEach(d=>{
+for(const genre of genres){
+ const candidates=data.filter(v=>(v.genres||[]).includes(genre)&&editorialOutlets(v).size>0).sort((a,b)=>editorialOutlets(b).size-editorialOutlets(a).size||a.name.localeCompare(b.name));
+ if(!candidates.length)continue;
+ const group=node('section','');const label=node('h3',genre);group.append(label);
+ const list=node('ul','');const cutoff=candidates[2]?editorialOutlets(candidates[2]).size:0;candidates.filter(v=>editorialOutlets(v).size>=cutoff).forEach(v=>{const li=node('li','');const button=node('button',v.name+' · '+editorialOutlets(v).size+' outlet'+(editorialOutlets(v).size===1?'':'s'));button.type='button';button.onclick=()=>{el('genre').value=genre;el('search').value='';el('town').value='';el('creator').value='';el('cuisine').value='';selectedId=null;setView('list');el('count').scrollIntoView({block:'center'});};li.append(button);list.append(li);});group.append(list);
+ if(editorialOutlets(candidates[0]).size===1){const note=node('p','Limited evidence: one editorial outlet per place.');group.append(note);}el('genreGuide').append(group);
+}
+function render(){const q=el('search').value.toLowerCase().trim();const rows=data.filter(d=>(d.name+' '+d.town+' '+d.cuisine+' '+(d.genres||[]).join(' ')+' '+((d.genres||[]).includes('Doughnuts')?'donuts doughnuts':'')).toLowerCase().includes(q)&&(!el('genre').value||(d.genres||[]).includes(el('genre').value))&&(!el('town').value||d.town===el('town').value)&&(!el('cuisine').value||d.cuisine===el('cuisine').value)&&(!el('creator').value||d.mentions.some(m=>m.creator===el('creator').value))).sort((a,b)=>(userLocation?((a.coords?distanceKm(userLocation,a.coords):Infinity)-(b.coords?distanceKm(userLocation,b.coords):Infinity)):0)||editorialOutlets(b).size-editorialOutlets(a).size||a.name.localeCompare(b.name));el('count').textContent=rows.length+' of '+data.length+' places · '+new Set(rows.map(d=>d.town)).size+' municipalities';el('list').replaceChildren();rows.forEach(d=>{
  const card=node('article','');card.className='item';
  const top=node('div','');top.className='item-top';
  const heading=node('div','');heading.className='maincopy';
@@ -53,8 +62,8 @@ function render(){const q=el('search').value.toLowerCase().trim();const rows=dat
   const copy=node('div','');copy.className='mention-copy';copy.append(link(m.creator,m.url));
   const type=node('p',m.type);type.className='mention-type';copy.append(type);
   const sponsor=node('p','Sponsorship: '+m.sponsorship.toLowerCase());sponsor.className='sponsorship';copy.append(sponsor);row.append(date,copy);coverage.append(row);
- });card.append(coverage);const status=node('p',d.status);status.className='venue-status';card.append(status);el('list').append(card);
+ });card.append(coverage);const outletCount=editorialOutlets(d).size;if(outletCount){const tally=node('p',outletCount+' editorial outlet'+(outletCount===1?'':'s')+' in reviewed sources');tally.className='outlet-count';card.append(tally);}const status=node('p',d.status);status.className='venue-status';card.append(status);el('list').append(card);
 });if(!rows.length){const empty=node('p','No matching places. Try clearing a filter.');empty.className='empty';el('list').append(empty)};if(view==='map')renderMap(rows);}
 
-function setView(v){view=v;el('list').hidden=v!=='list';el('map').hidden=v!=='map';el('mapNote').hidden=v!=='map';el('listBtn').setAttribute('aria-pressed',v==='list');el('mapBtn').setAttribute('aria-pressed',v==='map');render()}el('listBtn').onclick=()=>setView('list');el('mapBtn').onclick=()=>setView('map');['search','town','creator','cuisine'].forEach(id=>el(id).addEventListener('input',render));render();
+function setView(v){view=v;el('list').hidden=v!=='list';el('map').hidden=v!=='map';el('mapNote').hidden=v!=='map';el('listBtn').setAttribute('aria-pressed',v==='list');el('mapBtn').setAttribute('aria-pressed',v==='map');render()}el('listBtn').onclick=()=>setView('list');el('mapBtn').onclick=()=>setView('map');['search','town','creator','cuisine','genre'].forEach(id=>el(id).addEventListener('input',render));render();
 } catch(error) { document.getElementById('count').textContent='Listings could not load. Please refresh to try again.'; console.error(error); }
