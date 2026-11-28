@@ -133,6 +133,12 @@
       "name": "PelhamToday",
       "url": "https://www.pelhamtoday.ca/",
       "kind": "Local news / business profile"
+    },
+    {
+      "id": "reddit-community",
+      "name": "Reddit community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "kind": "Community suggestions; not critic coverage"
     }
   ],
   "venues": [
@@ -141,37 +147,64 @@
       "name": "Chocolates Etc.",
       "town": "St. Catharines",
       "cuisine": "Desserts",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "100 Welland Avenue",
+      "coords": [
+        43.16298802768682,
+        -79.24733178451895
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Ice cream & gelato",
         "Sweet treats"
-      ]
+      ],
+      "addressSource": "https://chocolatesetc.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85333&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "caffe-gatti-st-catharines",
       "name": "Caffe Gatti",
       "town": "St. Catharines",
       "cuisine": "Italian café",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3 Race Street",
+      "coords": [
+        43.15860728421921,
+        -79.24146308436363
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Café"
-      ]
+      ],
+      "addressSource": "https://caffegatti.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D86704&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "brass-monkey-local-st-catharines",
       "name": "Brass Monkey Local",
       "town": "St. Catharines",
       "cuisine": "Pub",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "67 St. Paul Street",
+      "coords": [
+        43.15641984782721,
+        -79.24572251796673
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Pub"
-      ]
+      ],
+      "addressSource": "https://brassmonkeylocal.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D87262&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "lounge-six-parkway-sky-bar-st-catharines",
@@ -294,12 +327,21 @@
       "name": "Secret Garden Restaurant",
       "town": "Niagara Falls",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "5827 River Road",
+      "coords": [
+        43.09104029284915,
+        -79.07072583205249
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://secretgardenrestaurant.net/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85853&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "counterpart-brewing-niagara-falls",
@@ -349,12 +391,21 @@
       "name": "Tailgates Bar & Grill",
       "town": "Welland",
       "cuisine": "Pub",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "200 Fitch Street, Unit 8",
+      "coords": [
+        42.99529364726313,
+        -79.26562703307991
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Pub"
-      ]
+      ],
+      "addressSource": "https://www.tailgatesbarandgrill.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91103&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "ruffinos-pasta-bar-grill-niagara-on-the-lake",
@@ -386,24 +437,42 @@
       "name": "Casa Mia Ristorante",
       "town": "Niagara Falls",
       "cuisine": "Italian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3518 Portage Road",
+      "coords": [
+        43.12200612730364,
+        -79.09920067173778
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Italian"
-      ]
+      ],
+      "addressSource": "https://www.casamiaristorante.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85076&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "inn-on-the-twenty-lincoln",
       "name": "Inn on the Twenty",
       "town": "Lincoln",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3845 Main Street",
+      "coords": [
+        43.149607422666705,
+        -79.36940720837299
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://www.vintage-hotels.com/inn-on-the-twenty/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D95123&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "valley-restaurant-st-catharines",
@@ -434,12 +503,21 @@
       "name": "Blackburn Brewhouse",
       "town": "Niagara Falls",
       "cuisine": "Brewery",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "8001 Blackburn Parkway",
+      "coords": [
+        43.05503566762257,
+        -79.13033245355255
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Brewery"
-      ]
+      ],
+      "addressSource": "https://www.blackburnbrewhouse.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D86649&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "trust-beer-bar-st-catharines",
@@ -489,13 +567,22 @@
       "name": "13th Street Winery",
       "town": "St. Catharines",
       "cuisine": "Winery dining",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "1776 Fourth Avenue",
+      "coords": [
+        43.15209530090742,
+        -79.3150425936527
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Butter tarts",
         "Winery dining"
-      ]
+      ],
+      "addressSource": "https://13thstreetwinery.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88639&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "napoli-ristorante-pizzeria-niagara-falls",
@@ -527,13 +614,22 @@
       "name": "The Twisted Pig",
       "town": "St. Catharines",
       "cuisine": "Italian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "1 Lock Street",
+      "coords": [
+        43.20167769335827,
+        -79.26605218054361
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Italian",
         "Pizza"
-      ]
+      ],
+      "addressSource": "https://www.thetwistedpig.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D89813&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "johnny-roccos-niagara-falls",
@@ -578,11 +674,20 @@
       "town": "Niagara Falls",
       "cuisine": "Seafood",
       "address": "3491 Portage Road",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.12208016412915,
+        -79.1006687171623
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Seafood"
-      ]
+      ],
+      "addressSource": "https://tideandvine.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D95027&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "la-favella-niagara-falls",
@@ -613,12 +718,21 @@
       "name": "Lake House Restaurant",
       "town": "Lincoln",
       "cuisine": "Mediterranean",
-      "address": "3100 North Service Road, Vineland",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3100 North Service Road",
+      "coords": [
+        43.18669047208908,
+        -79.37903807110335
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Mediterranean"
-      ]
+      ],
+      "addressSource": "https://lakehouserestaurant.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85444&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "lang-on-the-water-grimsby",
@@ -667,12 +781,21 @@
       "name": "Vineland Estates Winery Restaurant",
       "town": "Lincoln",
       "cuisine": "Winery dining",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3620 Moyer Road",
+      "coords": [
+        43.143177379468376,
+        -79.40349030960023
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Winery dining"
-      ]
+      ],
+      "addressSource": "https://vineland.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93759&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "the-bistro-at-the-good-earth-lincoln",
@@ -703,12 +826,21 @@
       "name": "Revalee Brunch Café",
       "town": "Lincoln",
       "cuisine": "Brunch",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "4100 Victoria Avenue, Unit 109",
+      "coords": [
+        43.16089138449693,
+        -79.39398274853517
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Brunch"
-      ]
+      ],
+      "addressSource": "https://revalee.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D97679&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "fat-rabbit-st-catharines",
@@ -716,12 +848,21 @@
       "town": "St. Catharines",
       "cuisine": "Canadian",
       "address": "34 Geneva Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.1615702076104,
+        -79.23971896587243
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian",
         "Steak & butchery"
-      ]
+      ],
+      "addressSource": "https://fat-rabbit.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88192&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "les-incompetents-st-catharines",
@@ -740,37 +881,64 @@
       "name": "OddBird",
       "town": "St. Catharines",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "52 St. Paul Street, Unit 1",
+      "coords": [
+        43.1561333112788,
+        -79.245130123864
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Burgers",
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://oddbird.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D87924&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "bolete-st-catharines",
       "name": "Bolete",
       "town": "St. Catharines",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "176 St. Paul Street",
+      "coords": [
+        43.15763541669676,
+        -79.24414233473463
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://bolete.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85923&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "wellington-court-st-catharines",
       "name": "Wellington Court",
       "town": "St. Catharines",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "11 Wellington Street",
+      "coords": [
+        43.159380250709965,
+        -79.24900091641658
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://wellington-court.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D90725&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "pique-nique-st-catharines",
@@ -878,12 +1046,21 @@
       "town": "St. Catharines",
       "cuisine": "Diner",
       "address": "431 Welland Avenue",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.173351953670725,
+        -79.21990259795386
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Brunch",
         "Diner"
-      ]
+      ],
+      "addressSource": "https://dinerhouse29.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93871&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "11th-post-on-queen-niagara-on-the-lake",
@@ -891,23 +1068,41 @@
       "town": "Niagara-on-the-Lake",
       "cuisine": "Restaurant",
       "address": "135 Queen Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.25720801432447,
+        -79.07451608008222
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Other dining"
-      ]
+      ],
+      "addressSource": "https://www.11thpostonqueen.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D86339&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "aura-on-the-lake-niagara-on-the-lake",
       "name": "Aura on the Lake",
       "town": "Niagara-on-the-Lake",
       "cuisine": "Restaurant",
-      "address": "233 King Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "233 King Street, Unit 3",
+      "coords": [
+        43.254162713704034,
+        -79.0720108755224
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Other dining"
-      ]
+      ],
+      "addressSource": "https://www.auraonthelake.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88670&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "avondale-dairy-bar-niagara-on-the-lake",
@@ -976,11 +1171,20 @@
       "town": "Niagara-on-the-Lake",
       "cuisine": "Bar",
       "address": "19 Queen Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.25532752298513,
+        -79.07126914688205
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Bars & snacks"
-      ]
+      ],
+      "addressSource": "https://www.corksniagara.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85358&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "wainfleet-restaurant-wainfleet",
@@ -1169,13 +1373,22 @@
       "name": "Silversmith Brewing Company",
       "town": "Niagara-on-the-Lake",
       "cuisine": "Brewery",
-      "address": "1523 Niagara Stone Road, Virgil",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "1523 Niagara Stone Road",
+      "coords": [
+        43.22210528814587,
+        -79.12128079839985
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Brewery",
         "Burgers"
-      ]
+      ],
+      "addressSource": "https://silversmithbrewing.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88809&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "masaki-sushi-niagara-on-the-lake",
@@ -1183,11 +1396,20 @@
       "town": "Niagara-on-the-Lake",
       "cuisine": "Japanese",
       "address": "60 Picton Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.25356658768822,
+        -79.06932312535633
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Japanese & sushi"
-      ]
+      ],
+      "addressSource": "https://www.masakisushi.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D92866&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "the-garrison-house-niagara-on-the-lake",
@@ -1231,12 +1453,21 @@
       "name": "Weinkeller",
       "town": "Niagara Falls",
       "cuisine": "Canadian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "5633 Victoria Avenue",
+      "coords": [
+        43.093609383646594,
+        -79.07464868970183
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Canadian"
-      ]
+      ],
+      "addressSource": "https://www.weinkeller.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91983&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "moksha-indian-bistro-niagara-falls",
@@ -1303,12 +1534,21 @@
       "name": "Ma Chinese Cuisine",
       "town": "St. Catharines",
       "cuisine": "Chinese",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "123 Geneva Street",
+      "coords": [
+        43.16714727958017,
+        -79.24082361219156
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Chinese & dim sum"
-      ]
+      ],
+      "addressSource": "https://www.machinesecuisine.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D86444&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "country-fresh-donuts-niagara-falls",
@@ -1353,12 +1593,21 @@
       "town": "Lincoln",
       "cuisine": "Bakery",
       "address": "4966 King Street East, Beamsville",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.16505340068195,
+        -79.47502303704614
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Bakery & pastries",
         "Doughnuts"
-      ]
+      ],
+      "addressSource": "https://www.beamsvillebakery.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D89972&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "dohboys-diner-st-catharines",
@@ -1390,12 +1639,21 @@
       "name": "The Lemon Tree",
       "town": "St. Catharines",
       "cuisine": "Vegan",
-      "address": "395 Ontario Street, Unit A1",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "395 Ontario Street, Unit 1",
+      "coords": [
+        43.181844834288405,
+        -79.26810331413505
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Vegan"
-      ]
+      ],
+      "addressSource": "https://www.thelemontreebistro.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D87240&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "italian-ice-cream-niagara-falls",
@@ -1403,11 +1661,20 @@
       "town": "Niagara Falls",
       "cuisine": "Desserts",
       "address": "5458 Victoria Avenue",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.09554382574793,
+        -79.07241860144487
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Ice cream & gelato"
-      ]
+      ],
+      "addressSource": "https://www.italianicecream.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93645&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "gelato-village-pelham",
@@ -1453,11 +1720,20 @@
       "town": "Niagara Falls",
       "cuisine": "Bakery",
       "address": "5592 Robinson Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.08594446589987,
+        -79.08580045859584
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Bakery & pastries"
-      ]
+      ],
+      "addressSource": "https://www.redganache.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91229&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "we-the-finest-burger-company-niagara-falls",
@@ -1477,24 +1753,42 @@
       "town": "Niagara Falls",
       "cuisine": "Japanese",
       "address": "5278 Ferry Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.089306542551085,
+        -79.08115453751485
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Barbecue",
         "Japanese & sushi"
-      ]
+      ],
+      "addressSource": "https://nikujapanbbq.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D92944&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "la-revolucion-taqueria-niagara-falls",
       "name": "La Revolución Taqueria",
       "town": "Niagara Falls",
       "cuisine": "Mexican",
-      "address": "3747 Portage Road",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "3747 Portage Road, Unit 1",
+      "coords": [
+        43.118852143233724,
+        -79.09966870623401
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Mexican & tacos"
-      ]
+      ],
+      "addressSource": "https://www.larevolucion.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D94778&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "fork-you-niagara-falls",
@@ -1562,25 +1856,43 @@
       "name": "OddBar",
       "town": "St. Catharines",
       "cuisine": "Pizza",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "12 King Street",
+      "coords": [
+        43.15682408275659,
+        -79.24726938351046
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Pizza"
-      ]
+      ],
+      "addressSource": "https://oddbird.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D84447&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "patio-andaluz-st-catharines",
       "name": "Patio Andaluz",
       "town": "St. Catharines",
       "cuisine": "Spanish",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "5 Lock Street",
+      "coords": [
+        43.201863966067506,
+        -79.26615287932823
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Mexican & tacos",
         "Spanish"
-      ]
+      ],
+      "addressSource": "https://www.patio-andaluz.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D96945&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "il-gelato-di-carlotta-st-catharines",
@@ -1635,12 +1947,21 @@
       "name": "Suisha Gardens",
       "town": "Niagara Falls",
       "cuisine": "Japanese",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "5701 Lewis Avenue",
+      "coords": [
+        43.0929499908335,
+        -79.08122662618398
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Japanese & sushi"
-      ]
+      ],
+      "addressSource": "https://www.suishagardens.com",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88661&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "pho-vietnam-3969-niagara-falls",
@@ -1695,12 +2016,21 @@
       "name": "Balti Indian",
       "town": "Niagara Falls",
       "cuisine": "Indian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "5306 Victoria Avenue",
+      "coords": [
+        43.09761323764082,
+        -79.07264094437122
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Indian"
-      ]
+      ],
+      "addressSource": "https://baltiindian.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88214&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "lang-restaurant-st-catharines",
@@ -1743,36 +2073,63 @@
       "name": "Chile & Agave",
       "town": "St. Catharines",
       "cuisine": "Mexican",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "51 Hartzel Road",
+      "coords": [
+        43.15515941885745,
+        -79.21477775916105
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Mexican & tacos"
-      ]
+      ],
+      "addressSource": "https://www.chileandagave.ca",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88950&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "georges-greek-village-st-catharines",
       "name": "George’s Greek Village",
       "town": "St. Catharines",
       "cuisine": "Greek",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "535 Queenston Street",
+      "coords": [
+        43.1659059951202,
+        -79.19666989698676
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Greek"
-      ]
+      ],
+      "addressSource": "https://georgesgreekvillage.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D90845&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "touch-of-india-st-catharines",
       "name": "Touch of India",
       "town": "St. Catharines",
       "cuisine": "Indian",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "126 St. Paul Street",
+      "coords": [
+        43.15706877531983,
+        -79.24477125212252
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Indian"
-      ]
+      ],
+      "addressSource": "https://touchofindia.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88447&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "pho-dau-bo-st-catharines",
@@ -1816,12 +2173,21 @@
       "town": "Niagara Falls",
       "cuisine": "French",
       "address": "4613 Queen Street",
-      "coords": null,
-      "status": "Current operation not verified",
+      "coords": [
+        43.10692765940825,
+        -79.06960412759798
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Brunch",
         "French"
-      ]
+      ],
+      "addressSource": "https://pariscrepescafe.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91749&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "mesopotamia-turkish-bakery-niagara-falls",
@@ -1841,12 +2207,21 @@
       "name": "Moodie’s Bakery",
       "town": "Niagara Falls",
       "cuisine": "Bakery",
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "4552 Queen Street",
+      "coords": [
+        43.106424195472506,
+        -79.06831729012646
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "genres": [
         "Bakery & pastries"
-      ]
+      ],
+      "addressSource": "https://moodiesbakery.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D88772&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "pho-real-pelham",
@@ -1871,11 +2246,19 @@
         "Fine dining",
         "Canadian"
       ],
-      "address": "1469 Pelham Street, Fonthill",
-      "coords": null,
-      "status": "Current operation not verified",
+      "address": "1469 Pelham Street",
+      "coords": [
+        43.045063165325814,
+        -79.28504463213223
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "website": "https://www.rootandbone.ca/",
-      "addressSource": "https://www.rootandbone.ca/"
+      "addressSource": "https://www.rootandbone.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93842&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "stoke-deli-bar-pelham",
@@ -1910,10 +2293,19 @@
         "Brunch",
         "Diner"
       ],
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified",
-      "website": "https://thepelhamstreetgrille.com/"
+      "address": "1507 Pelham Street",
+      "coords": [
+        43.045951299667905,
+        -79.28512194259349
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "website": "https://thepelhamstreetgrille.com/",
+      "addressSource": "https://thepelhamstreetgrille.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D89073&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "chois-roll-bowl-pelham",
@@ -1940,9 +2332,18 @@
         "Deli & sandwiches",
         "Pizza"
       ],
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "1376 Haist Street, Unit L1",
+      "coords": [
+        43.04148989729983,
+        -79.29551761564913
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "addressSource": "https://www.italianpeasantgastromarket.com/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D91955&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "cured-tapas-cocktails-pelham",
@@ -1995,9 +2396,18 @@
         "Burgers",
         "Pub"
       ],
-      "address": null,
-      "coords": null,
-      "status": "Current operation not verified"
+      "address": "25 Pelham Town Square",
+      "coords": [
+        43.04394919793351,
+        -79.2849689123849
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "addressSource": "https://kameandkettle.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D89087&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     },
     {
       "id": "grill-on-canboro-pelham",
@@ -2033,11 +2443,111 @@
         "Café",
         "Deli & sandwiches"
       ],
-      "address": "302 Canboro Road, Unit 1A, Ridgeville",
-      "coords": null,
-      "status": "Business website checked; confirm opening hours before visiting",
+      "address": "302 Canboro Road, Unit 1A",
+      "coords": [
+        43.037275983288204,
+        -79.31119299896248
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
       "website": "https://www.naturescorner.ca/",
-      "addressSource": "https://www.naturescorner.ca/"
+      "addressSource": "https://www.naturescorner.ca/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D95714&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "humble-doughnut-company-st-catharines",
+      "name": "Humble Doughnut Company",
+      "town": "St. Catharines",
+      "cuisine": "Doughnuts",
+      "address": "100 Fourth Avenue, Unit 28",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Doughnuts",
+        "Sweet treats"
+      ],
+      "website": "https://humbledoughnut.ca/",
+      "addressSource": "https://humbledoughnut.ca/",
+      "addressVerifiedAt": "2026-11-28"
+    },
+    {
+      "id": "donut-depot-bakery-st-catharines",
+      "name": "Donut Depot & Bakery",
+      "town": "St. Catharines",
+      "cuisine": "Bakery",
+      "address": "28 Perma Court",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Doughnuts",
+        "Bakery & pastries",
+        "Sweet treats"
+      ],
+      "website": "https://donutdepot.ca/contact/",
+      "addressSource": "https://donutdepot.ca/contact/",
+      "addressVerifiedAt": "2026-11-28"
+    },
+    {
+      "id": "its-about-thyme-st-catharines",
+      "name": "It’s About Thyme",
+      "town": "St. Catharines",
+      "cuisine": "Lebanese",
+      "address": "95 Geneva Street",
+      "coords": [
+        43.16488167855859,
+        -79.2404688585948
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Middle Eastern"
+      ],
+      "website": "https://www.aboutthymestcatharines.com/contact",
+      "addressSource": "https://www.aboutthymestcatharines.com/contact",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D93086&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
+    },
+    {
+      "id": "taqueria-el-cerrito-st-catharines",
+      "name": "Taqueria el Cerrito",
+      "town": "St. Catharines",
+      "cuisine": "Mexican",
+      "address": "491 Merritt Street",
+      "coords": null,
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Mexican & tacos"
+      ],
+      "website": "https://taqueriaelcerritoon.com/taqueria-el-cerrito/locations/",
+      "addressSource": "https://taqueriaelcerritoon.com/taqueria-el-cerrito/locations/",
+      "addressVerifiedAt": "2026-11-28"
+    },
+    {
+      "id": "spicy-thai-st-catharines",
+      "name": "Spicy Thai Restaurant",
+      "town": "St. Catharines",
+      "cuisine": "Thai",
+      "address": "208 Church Street",
+      "coords": [
+        43.16359720413634,
+        -79.23589958703275
+      ],
+      "status": "Address checked; confirm opening hours before visiting",
+      "genres": [
+        "Thai"
+      ],
+      "website": "https://spicythai.ca/contact/",
+      "addressSource": "https://spicythai.ca/contact/",
+      "addressVerifiedAt": "2026-11-28",
+      "coordinateSource": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45/query?where=OBJECTID%3D85684&outFields=*&outSR=4326&f=pjson",
+      "coordinateVerifiedAt": "2026-11-28",
+      "coordinateMethod": "2025 Niagara Employment Inventory business point, exported in WGS84; venue identity, municipality and address reviewed against business website.",
+      "locationDatasetYear": 2025
     }
   ],
   "mentions": [
@@ -4384,6 +4894,106 @@
       "checkedAt": "2026-11-28",
       "sponsorship": "Unknown",
       "type": "Business website listing"
+    },
+    {
+      "id": "mention-220",
+      "venueId": "humble-doughnut-company-st-catharines",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-221",
+      "venueId": "humble-doughnut-company-st-catharines",
+      "creatorId": "business",
+      "url": "https://humbledoughnut.ca/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; address verification"
+    },
+    {
+      "id": "mention-222",
+      "venueId": "donut-depot-bakery-st-catharines",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-223",
+      "venueId": "donut-depot-bakery-st-catharines",
+      "creatorId": "business",
+      "url": "https://donutdepot.ca/contact/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; address verification"
+    },
+    {
+      "id": "mention-224",
+      "venueId": "its-about-thyme-st-catharines",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-225",
+      "venueId": "its-about-thyme-st-catharines",
+      "creatorId": "business",
+      "url": "https://www.aboutthymestcatharines.com/contact",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; address verification"
+    },
+    {
+      "id": "mention-226",
+      "venueId": "taqueria-el-cerrito-st-catharines",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-227",
+      "venueId": "taqueria-el-cerrito-st-catharines",
+      "creatorId": "business",
+      "url": "https://taqueriaelcerritoon.com/taqueria-el-cerrito/locations/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; address verification"
+    },
+    {
+      "id": "mention-228",
+      "venueId": "spicy-thai-st-catharines",
+      "creatorId": "reddit-community",
+      "url": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Community restaurant suggestion; not critic coverage"
+    },
+    {
+      "id": "mention-229",
+      "venueId": "spicy-thai-st-catharines",
+      "creatorId": "business",
+      "url": "https://spicythai.ca/contact/",
+      "date": null,
+      "checkedAt": "2026-11-28",
+      "sponsorship": "Unknown",
+      "type": "Business website; address verification"
     }
   ],
   "coverageMethodology": {
@@ -4545,5 +5155,17 @@
         "date": "2024-11-17"
       }
     ]
+  },
+  "locationMethodology": {
+    "reviewedAt": "2026-11-28",
+    "surveyYear": 2025,
+    "dataset": "https://www.niagaraopendata.ca/dataset/consolidated-nei-opendata",
+    "service": "https://services1.arcgis.com/WxiLK82TWf8W3O3f/arcgis/rest/services/OpenData_Consolidated_NEI_Opendata/FeatureServer/45",
+    "attribution": "Contains information licensed under the Open Government Licence – Niagara Region.",
+    "license": "https://niagaraopendata.ca/pages/open-government-license-2-0-niagara-region",
+    "method": "Unique name/municipality candidates and manually reviewed aliases; current business website address required before accepting a business point. Existing sourced points retained. Conflicts and unavailable websites held for review. Survey points are approximate business locations, not entrance or navigation pins.",
+    "audit": "sources/nei/location-review.json",
+    "communitySource": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/",
+    "communityPolicy": "Community suggestions are discovery leads and excluded from editorial outlet counts. No bulk import of all inventory businesses."
   }
 }

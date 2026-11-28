@@ -34,3 +34,20 @@ for (const mention of data.mentions) {
   assert(!mentionKeys.has(key), 'Duplicate mention'); mentionKeys.add(key);
 }
 console.log(`Validated ${data.venues.length} venues and ${data.mentions.length} source mentions across ${new Set(data.venues.map(v=>v.town)).size} municipalities.`);
+if (data.locationMethodology) {
+  const audit = JSON.parse(readFileSync(new URL('../sources/nei/location-review.json', import.meta.url)));
+  assert.equal(new Set(audit.reviews.map(r=>r.venueId)).size, audit.reviews.length, 'One location review per venue');
+  for (const venue of data.venues.filter(v=>v.locationDatasetYear)) {
+    const review = audit.reviews.find(r=>r.venueId === venue.id);
+    assert.equal(review?.decision, 'accepted', `Inventory point requires manual acceptance: ${venue.name}`);
+    const {attributes, geometry} = review.inventoryRecord;
+    assert.equal(venue.locationDatasetYear, attributes.Year);
+    assert.deepEqual(venue.coords, [geometry.y, geometry.x], 'Keep WGS84 latitude/longitude order');
+    assert.equal(venue.addressSource, review.addressSource);
+    assert.equal(new URL(venue.addressSource).protocol, 'https:');
+    assert(review.addressExcerpts.length && venue.addressVerifiedAt, 'Accepted points require address evidence');
+    assert(venue.coordinateSource.includes(`OBJECTID%3D${attributes.OBJECTID}&`));
+  }
+  assert(data.mentions.filter(m=>m.creatorId==='reddit-community').every(m=>!m.editorialFamily), 'Community suggestions are not critic counts');
+  console.log(`Cross-checked ${data.venues.filter(v=>v.locationDatasetYear).length} accepted inventory points against the review cache.`);
+}

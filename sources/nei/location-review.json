@@ -1,0 +1,3030 @@
+{
+  "reviewedAt": "2026-11-28",
+  "surveyYear": 2025,
+  "recordsReviewed": 13724,
+  "dataset": "https://www.niagaraopendata.ca/dataset/consolidated-nei-opendata",
+  "attribution": "Contains information licensed under the Open Government Licence – Niagara Region.",
+  "license": "https://niagaraopendata.ca/pages/open-government-license-2-0-niagara-region",
+  "reviews": [
+    {
+      "venueId": "chocolates-etc-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85333,
+          "nei_id": 1632,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Chocolates Etc",
+          "businessstreetnumber": "100",
+          "businessstreetname": "Welland Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2R2N1",
+          "businesswebsite": "www.chocolatesetc.ca",
+          "primarynaics": 311351,
+          "industry": "Chocolate and chocolate confectionery manufacturing from cacao beans"
+        },
+        "geometry": {
+          "x": -79.24733178451895,
+          "y": 43.16298802768682
+        }
+      },
+      "addressSource": "https://chocolatesetc.ca/",
+      "addressExcerpts": [
+        "905 682 8828    100 Welland  Ave,            St. Catharines,          ON L2R 2N1, Canada",
+        "gara          OPEN 6 DAYS A WEEK 905 682 8828 100 Welland Ave, St. Catharines, ON L2R 2N1, Canada"
+      ]
+    },
+    {
+      "venueId": "caffe-gatti-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86704,
+          "nei_id": 8732,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Cafe Gatti",
+          "businessstreetnumber": "3",
+          "businessstreetname": "Race Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M1",
+          "businesswebsite": "www.caffegatti.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.24146308436363,
+          "y": 43.15860728421921
+        }
+      },
+      "addressSource": "https://caffegatti.com/",
+      "addressExcerpts": [
+        "find us \n\n\n\n Find Caffe Gatti in downtown 3 Race Street, St. Catharines, Ontario L2R 3M1 905-641-5009 \n\n\n\n \n Visit Us"
+      ]
+    },
+    {
+      "venueId": "brass-monkey-local-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87262,
+          "nei_id": 30394,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Brass Monkey Local",
+          "businessstreetnumber": "67",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M3",
+          "businesswebsite": "www.brassmonkeylocal.ca/",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24572251796673,
+          "y": 43.15641984782721
+        }
+      },
+      "addressSource": "https://brassmonkeylocal.ca/",
+      "addressExcerpts": [
+        "67 St. Paul St, St. Catharines, Ontario 289-362-5550   Drinks + Snacks Monday 4pm-late Tues"
+      ]
+    },
+    {
+      "venueId": "merchant-ale-house-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94733,
+          "nei_id": 2050,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "The Merchant Ale House",
+          "businessstreetnumber": "98",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.merchantalehouse.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24486658011453,
+          "y": 43.15680010049326
+        }
+      },
+      "addressSource": "https://www.merchantalehouse.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "karma-kameleon-gastropub-thorold",
+      "decision": "hold",
+      "reason": "Website says 1 Front Street North; inventory says 2. Do not plot.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84949,
+          "nei_id": 12005,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "The Karma Kameleon ",
+          "businessstreetnumber": "2",
+          "businessstreetname": "Front Street North",
+          "businessunit": null,
+          "businesspostalcode": "L2V1X3",
+          "businesswebsite": "www.karmakameleonpub.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.2011072670772,
+          "y": 43.12509014597764
+        }
+      },
+      "addressSource": "https://www.karmakameleonpub.com",
+      "addressExcerpts": [
+        "on-9pm CONTACT US TEL  905 227-2233 \n\n ADDRESS  1 Front Street North, Thorold Ontario L2V 1X3 © 2016 by Karma Kameleon  \n bottom of pag"
+      ]
+    },
+    {
+      "venueId": "bricks-barley-niagara-on-the-lake",
+      "decision": "preserved-existing-point",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92356,
+          "nei_id": 20100,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Bricks & Barley ",
+          "businessstreetnumber": "1573",
+          "businessstreetname": "Four Mile Creek Road",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.bricksandbarley.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.12132414818134,
+          "y": 43.219242634624884
+        }
+      },
+      "addressSource": "https://bricksandbarley.ca/",
+      "addressExcerpts": [
+        "Bricks & Barley, 1573 Four Mile Creek Road, Niagara-on-the-Lake, ON, L0S 1J0, Canada 9054688808 info@bricksandbarley.",
+        "Bricks & Barley 1573 Four Mile Creek Rd Niagara-on-the-Lake, ON See on Google Maps Bricks & Barley has the right to"
+      ]
+    },
+    {
+      "venueId": "the-smokin-buddha-port-colborne",
+      "decision": "preserved-existing-point",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94938,
+          "nei_id": 9007,
+          "Year": 2025,
+          "municipality": "Port Colborne",
+          "businessname": "The Smokin Buddha Restaurant",
+          "businessstreetnumber": "265",
+          "businessstreetname": "King Street",
+          "businessunit": "2",
+          "businesspostalcode": "L3K4G8",
+          "businesswebsite": "www.thesmokinbuddha.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.25091569391577,
+          "y": 42.88711444250037
+        }
+      },
+      "addressSource": "https://www.thesmokinbuddha.com",
+      "addressExcerpts": [
+        "The Restaurant 265 King Street Port Colborne, ON L3K 4G8 905 834 6000 Hours Sun-Mon - Closed Tues - 4:0",
+        "Humberstone EVENT HALL  Open for private bookings  Email thehumberstone265@gmail.com ‍                                     ‍ www"
+      ]
+    },
+    {
+      "venueId": "queen-bean-niagara-falls",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87501,
+          "nei_id": 6371,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Queen Bean Cafe ",
+          "businessstreetnumber": "4388",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L2E2L2",
+          "businesswebsite": "www.queenbeanniagara.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.06544721379588,
+          "y": 43.10636669461612
+        }
+      },
+      "addressSource": "https://www.queenbeanniagara.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "secret-garden-restaurant-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85853,
+          "nei_id": 11349,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Secret Garden Restaurant",
+          "businessstreetnumber": "5827",
+          "businessstreetname": "River Road",
+          "businessunit": null,
+          "businesspostalcode": "L2G3K9",
+          "businesswebsite": "www.secretgardenrestaurant.net",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07072583205249,
+          "y": 43.09104029284915
+        }
+      },
+      "addressSource": "https://secretgardenrestaurant.net/",
+      "addressExcerpts": [
+        "a call or an email! Secret Garden Restaurant 5827 River Road\nNiagara Falls, ON L2G 3K9\nCA (905) 358-4588 Hours Restaurant and Gift shop"
+      ]
+    },
+    {
+      "venueId": "counterpart-brewing-niagara-falls",
+      "decision": "preserved-existing-point",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89786,
+          "nei_id": 20078,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Counterpart Brewing ",
+          "businessstreetnumber": "3659",
+          "businessstreetname": "Stanley Avenue",
+          "businessunit": "8",
+          "businesspostalcode": "L2E0A6",
+          "businesswebsite": "www.counterpartbrewing.com",
+          "primarynaics": 312120,
+          "industry": "Breweries"
+        },
+        "geometry": {
+          "x": -79.08722198579797,
+          "y": 43.12025358131655
+        }
+      },
+      "addressSource": "https://counterpartbrewing.com/",
+      "addressExcerpts": [
+        "esday-Sunday: 12pm-9pm \n      \n      \n       3659 Stanley Ave – Unit 8 Niagara Falls, ON L2E 0A6 \n          \n      \n       Phone: (905) 3"
+      ]
+    },
+    {
+      "venueId": "casa-toscana-grimsby",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94796,
+          "nei_id": 9735,
+          "Year": 2025,
+          "municipality": "Grimsby",
+          "businessname": "Bottega by Casa Toscana",
+          "businessstreetnumber": "22",
+          "businessstreetname": "Main Street West",
+          "businessunit": null,
+          "businesspostalcode": "L3M1R4",
+          "businesswebsite": "www.casatoscana.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.5608512945708,
+          "y": 43.19389062444332
+        }
+      },
+      "addressSource": "https://www.casatoscana.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "tailgates-bar-grill-welland",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91103,
+          "nei_id": 7744,
+          "Year": 2025,
+          "municipality": "Welland",
+          "businessname": "Tailgates Bar and Grill",
+          "businessstreetnumber": "200",
+          "businessstreetname": "Fitch Street",
+          "businessunit": "8",
+          "businesspostalcode": "L3C4V9",
+          "businesswebsite": "www.tailgatesbarandgrill.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.26562703307991,
+          "y": 42.99529364726313
+        }
+      },
+      "addressSource": "https://www.tailgatesbarandgrill.com",
+      "addressExcerpts": [
+        "top of page 200 Fitch Street - Unit 8 Welland, Ontario   Located in Fitch Street Plaza      (905) 714",
+        "out our party room. \n\n Come Tailgate With Us! 200 Fitch Street - Unit 8 \n\n Welland, Ontario  \n\n L3C-4V9 \n\n Located in Fitch Street Plaz"
+      ]
+    },
+    {
+      "venueId": "ruffinos-pasta-bar-grill-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92307,
+          "nei_id": 10212,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Ruffino’s Pasta Bar and Grill /Bar Bea",
+          "businessstreetnumber": "242",
+          "businessstreetname": "Mary Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.backhouse.xyz",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.08353491959107,
+          "y": 43.252323696542014
+        }
+      },
+      "addressSource": "https://www.backhouse.xyz",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "casa-mia-ristorante-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85076,
+          "nei_id": 6803,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Casa Mia Ristorante",
+          "businessstreetnumber": "3518",
+          "businessstreetname": "Portage Road",
+          "businessunit": null,
+          "businesspostalcode": "L2J2K4",
+          "businesswebsite": "www.casamiaristorante.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.09920067173778,
+          "y": 43.12200612730364
+        }
+      },
+      "addressSource": "https://www.casamiaristorante.com",
+      "addressExcerpts": [
+        "Address \n             \n               3518 Portage Rd. Niagara Falls \n               ON L2J 2K4 \n             \n             Phone"
+      ]
+    },
+    {
+      "venueId": "inn-on-the-twenty-lincoln",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95123,
+          "nei_id": 10586,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "Inn on the Twenty Restaurant",
+          "businessstreetnumber": "3845",
+          "businessstreetname": "Main Street",
+          "businessunit": null,
+          "businesspostalcode": "L0R1S0",
+          "businesswebsite": "www.innonthetwenty.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.36940720837299,
+          "y": 43.149607422666705
+        }
+      },
+      "addressSource": "https://www.vintage-hotels.com/inn-on-the-twenty/",
+      "addressExcerpts": [
+        "enty is a 26-suite boutique hotel located at 3845 Main Street in Jordan Village, Ontario, in the heart of the Niagara Benchlands wine",
+        "wenty \n\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t 3845 Main Street, \nJordan, \nON, L0R 1S0, Canada"
+      ]
+    },
+    {
+      "venueId": "valley-restaurant-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84465,
+          "nei_id": 3170,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Valley Restaurant ",
+          "businessstreetnumber": "93",
+          "businessstreetname": "Arthur Street",
+          "businessunit": null,
+          "businesspostalcode": "L2M1H5",
+          "businesswebsite": "www.valleyrestaurant.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.22278584688429,
+          "y": 43.22078548630434
+        }
+      },
+      "addressSource": "https://www.hugedomains.com/domain_profile.cfm?d=valleyrestaurant.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "the-blind-pig-niagara-falls",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92254,
+          "nei_id": 6159,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "The Blind Pig",
+          "businessstreetnumber": "6689",
+          "businessstreetname": "Lundy's Lane",
+          "businessunit": "2",
+          "businesspostalcode": "L2G1V4",
+          "businesswebsite": "www.blindpigniagara.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.10672914304077,
+          "y": 43.08958948295094
+        }
+      },
+      "addressSource": "https://blindpigniagara.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "blackburn-brewhouse-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86649,
+          "nei_id": 50094,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Blackburn Brew House",
+          "businessstreetnumber": "8001",
+          "businessstreetname": "Blackburn Parkway",
+          "businessunit": null,
+          "businesspostalcode": "L2H0A6",
+          "businesswebsite": "www.blackburnbrewhouse.com",
+          "primarynaics": 312120,
+          "industry": "Breweries"
+        },
+        "geometry": {
+          "x": -79.13033245355255,
+          "y": 43.05503566762257
+        }
+      },
+      "addressSource": "https://www.blackburnbrewhouse.com",
+      "addressExcerpts": [
+        "Blackburn \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   niagara falls 8001 blackburn parkway Niagara falls,",
+        "urn \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   niagara falls 8001 blackburn parkway Niagara falls, on 905-358-0801 info@blackburnbrewhouse.com"
+      ]
+    },
+    {
+      "venueId": "ludology-boardgame-cafe-st-catharines",
+      "decision": "preserved-existing-point",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87789,
+          "nei_id": 13222,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Ludology Boardgame Cafe",
+          "businessstreetnumber": "52",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": "2",
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.ludology.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24513015543843,
+          "y": 43.15613319650449
+        }
+      },
+      "addressSource": "https://www.ludology.ca",
+      "addressExcerpts": [
+        "Location Ludology Boardgame Cafe \n\n 52 St. Paul St. Unit 2, St.Catharines, ON, L2R3M2 HOURS \n  Monday \n\n Tuesday \n\n Wednesday",
+        "12PM  - \n\n 12PM  - Ludology Boardgame Cafe  \n 52 St. Paul St. Unit 2, St.Catharines, ON, L2R3M2 phone (289) 362-4839 © 2022  Ludology Boa"
+      ]
+    },
+    {
+      "venueId": "13th-street-winery-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88639,
+          "nei_id": 11141,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "13th Street Winery",
+          "businessstreetnumber": "1776",
+          "businessstreetname": "Fourth Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2R6P9",
+          "businesswebsite": "www.13thstreetwinery.com",
+          "primarynaics": 312130,
+          "industry": "Wineries"
+        },
+        "geometry": {
+          "x": -79.3150425936527,
+          "y": 43.15209530090742
+        }
+      },
+      "addressSource": "https://13thstreetwinery.com/",
+      "addressExcerpts": [
+        "1776 Fourth Avenue  St. Catharines, Ontario \n            Canada, L2R 6P9"
+      ]
+    },
+    {
+      "venueId": "carpaccio-restaurant-wine-bar-niagara-falls",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89663,
+          "nei_id": 6144,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Carpaccio Restaurant",
+          "businessstreetnumber": "6840",
+          "businessstreetname": "Lundy's Lane",
+          "businessunit": null,
+          "businesspostalcode": "L2G1V6",
+          "businesswebsite": "www.carpaccorestaurant.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.10933341553184,
+          "y": 43.08875305271622
+        }
+      },
+      "addressSource": "https://www.carpaccorestaurant.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "the-twisted-pig-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89813,
+          "nei_id": 30543,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "The Twisted Pig",
+          "businessstreetnumber": "1",
+          "businessstreetname": "Lock Street",
+          "businessunit": null,
+          "businesspostalcode": "L2N5B4",
+          "businesswebsite": "www.thetwistedpig.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.26605218054361,
+          "y": 43.20167769335827
+        }
+      },
+      "addressSource": "https://www.thetwistedpig.ca",
+      "addressExcerpts": [
+        "The Twisted Pig \n     \n      1 Lock St\n       \n      St. Catharines, Ontario L2N 5B4\n       , opens Google Maps in",
+        "1 Lock St, St. Catharines\n        , opens Google Maps in new tab",
+        "ddress \n           \n             \n              1 Lock St, St. Catharines\n               , opens Google Maps in new tab"
+      ]
+    },
+    {
+      "venueId": "johnny-roccos-niagara-falls",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91531,
+          "nei_id": 6152,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Johnny Rocco's Italian Grill",
+          "businessstreetnumber": "6889",
+          "businessstreetname": "Lundy's Lane",
+          "businessunit": null,
+          "businesspostalcode": "L2G1V7",
+          "businesswebsite": "www.johnnyroccos.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.1103891675091,
+          "y": 43.089492918048336
+        }
+      },
+      "addressSource": "https://www.johnnyroccos.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "tide-vine-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95027,
+          "nei_id": 6910,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Tide and Vine Oyster House",
+          "businessstreetnumber": "3491",
+          "businessstreetname": "Portage Road",
+          "businessunit": null,
+          "businesspostalcode": "L2J2K5",
+          "businesswebsite": "www.tideandvine.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.1006687171623,
+          "y": 43.12208016412915
+        }
+      },
+      "addressSource": "https://tideandvine.com/",
+      "addressExcerpts": [
+        "3491 Portage Rd. Niagara Falls, ON L2J 2K5"
+      ]
+    },
+    {
+      "venueId": "lake-house-restaurant-lincoln",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85444,
+          "nei_id": 11113,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "Lake House Restaurant",
+          "businessstreetnumber": "3100",
+          "businessstreetname": "North Service Road",
+          "businessunit": null,
+          "businesspostalcode": "L0R2E0",
+          "businesswebsite": "www.lakehouserestaurant.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.37903807110335,
+          "y": 43.18669047208908
+        }
+      },
+      "addressSource": "https://lakehouserestaurant.com/",
+      "addressExcerpts": [
+        "tion \t\t\t\t \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t\t\t\t\t 3100 North Service Road, Vineland, Ontario L0R 2E0 Contact Us | Reserve"
+      ]
+    },
+    {
+      "venueId": "rpm-bakehouse-lincoln",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 97628,
+          "nei_id": 50801,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "RPM Bakehouse",
+          "businessstreetnumber": "3839",
+          "businessstreetname": "Main Street",
+          "businessunit": null,
+          "businesspostalcode": "L0R1S0",
+          "businesswebsite": "www.rpmbakehouse.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.36960018837766,
+          "y": 43.14933590059891
+        }
+      },
+      "addressSource": "https://www.rpmbakehouse.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "vineland-estates-winery-restaurant-lincoln",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93759,
+          "nei_id": 11186,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "Vineland Estates Winery Ltd.",
+          "businessstreetnumber": "3620",
+          "businessstreetname": "Moyer Road",
+          "businessunit": null,
+          "businesspostalcode": "L0R2C0",
+          "businesswebsite": "www.vineland.com",
+          "primarynaics": 312130,
+          "industry": "Wineries"
+        },
+        "geometry": {
+          "x": -79.40349030960023,
+          "y": 43.143177379468376
+        }
+      },
+      "addressSource": "https://vineland.com/",
+      "addressExcerpts": [
+        "CONTACT US 1-888-846-3526 \n 3620 Moyer Rd., \nVineland, Ontario \nCanada L0R 2C0 \n Find us on Google Maps \n THE RESTAURA"
+      ]
+    },
+    {
+      "venueId": "revalee-brunch-cafe-lincoln",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 97679,
+          "nei_id": 13601,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "Revalee Brunch Cafe ",
+          "businessstreetnumber": "4100",
+          "businessstreetname": "Victoria Avenue",
+          "businessunit": "109",
+          "businesspostalcode": "L0R2C0",
+          "businesswebsite": "www.revalee.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.39398274853517,
+          "y": 43.16089138449693
+        }
+      },
+      "addressSource": "https://revalee.ca/",
+      "addressExcerpts": [
+        "Revalee Café 109-4100 Victoria Avenue Lincoln, ON, L0R 2C0 Canada 905-562-4101 Brunch Café Hours Wednesday thr"
+      ]
+    },
+    {
+      "venueId": "fat-rabbit-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88192,
+          "nei_id": 60221,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Fat Rabbit",
+          "businessstreetnumber": "34",
+          "businessstreetname": "Geneva Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R4M4",
+          "businesswebsite": "www.fat-rabbit.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.23971896587243,
+          "y": 43.1615702076104
+        }
+      },
+      "addressSource": "https://fat-rabbit.ca/",
+      "addressExcerpts": [
+        "34 GENEVA STREET, St. Catharines L2R 4M4 (905) 688-6553"
+      ]
+    },
+    {
+      "venueId": "oddbird-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87924,
+          "nei_id": 13215,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Oddbird",
+          "businessstreetnumber": "52",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": "1",
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.oddbird.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.245130123864,
+          "y": 43.1561333112788
+        }
+      },
+      "addressSource": "https://oddbird.ca/",
+      "addressExcerpts": [
+        "View Menu 52 St. Paul St  \n905.322.4043"
+      ]
+    },
+    {
+      "venueId": "bolete-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85923,
+          "nei_id": 12208,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Bolete",
+          "businessstreetnumber": "176",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2T2M1",
+          "businesswebsite": "www.bolete.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24414233473463,
+          "y": 43.15763541669676
+        }
+      },
+      "addressSource": "https://bolete.ca/",
+      "addressExcerpts": [
+        "Location \t\t\t 176 St. Paul St. \nSt Catharines, ON \nCanada L2R 3M2 \n  (905) 641-9559 \n   andrew@bolete.ca"
+      ]
+    },
+    {
+      "venueId": "wellington-court-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90725,
+          "nei_id": 1806,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Wellington Court Resturant",
+          "businessstreetnumber": "11",
+          "businessstreetname": "Wellington Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R5P5",
+          "businesswebsite": "www.wellington-court.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24900091641658,
+          "y": 43.159380250709965
+        }
+      },
+      "addressSource": "https://wellington-court.com/",
+      "addressExcerpts": [
+        "Contact Us\t \n\t\t\t 11 Wellington St. St., Catharines, ON L2R 5P5 905.682.5518   Jarrod@wellington-court.com   Tu",
+        "St., Catharines, ON L2R 5P5 905.682.5518   Jarrod@wellington-court.com   Tuesday – Friday 11:30 - 2:30 / 5 - 9 Saturday 5 - 9 Sunday - Monda",
+        "Address \n \n\t\t \t\t\t 11 Wellington St. \nSt. Catharines, ON \n \n\t\t \t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t \t\t\t Follow Us"
+      ]
+    },
+    {
+      "venueId": "beechwood-doughnuts-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94595,
+          "nei_id": 1877,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Beechwood Doughnuts",
+          "businessstreetnumber": "165",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M5",
+          "businesswebsite": "www.beechwooddoughnuts.com",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.24482540294706,
+          "y": 43.15788903226474
+        }
+      },
+      "addressSource": "https://www.beechwooddoughnuts.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "brindle-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94414,
+          "nei_id": 80189,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Brindle ",
+          "businessstreetnumber": "160",
+          "businessstreetname": "St Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.brindlefoodco.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-services eating places"
+        },
+        "geometry": {
+          "x": -79.24429346485901,
+          "y": 43.1574930345512
+        }
+      },
+      "addressSource": "https://brindlefoodco.ca/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "ming-teh-chinese-restaurant-fort-erie",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91483,
+          "nei_id": 8704,
+          "Year": 2025,
+          "municipality": "Fort Erie",
+          "businessname": "Ming Teh Chinese Restaurant",
+          "businessstreetnumber": "126",
+          "businessstreetname": "Niagara Boulevard",
+          "businessunit": null,
+          "businesspostalcode": "L2A3G3",
+          "businesswebsite": "www.mingtehrestaurant.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -78.9087653459577,
+          "y": 42.91198595109955
+        }
+      },
+      "addressSource": "https://www.mingtehrestaurant.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "m-t-bellies-tap-and-grill-welland",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 98052,
+          "nei_id": 7115,
+          "Year": 2025,
+          "municipality": "Welland",
+          "businessname": "M.T. Bellies Tap and Grillhouse",
+          "businessstreetnumber": "871",
+          "businessstreetname": "Niagara Street",
+          "businessunit": null,
+          "businesspostalcode": "L3C6Y1",
+          "businesswebsite": "www.mtbellies.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.2505835373125,
+          "y": 43.01903541962681
+        }
+      },
+      "addressSource": "https://mtbellies.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "matteos-ristorante-welland",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 96995,
+          "nei_id": 8006,
+          "Year": 2025,
+          "municipality": "Welland",
+          "businessname": "Matteo's Ristorante",
+          "businessstreetnumber": "125",
+          "businessstreetname": "East Main Street",
+          "businessunit": null,
+          "businesspostalcode": "L3B3W7",
+          "businesswebsite": "www.matteos-risorante.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24725557006927,
+          "y": 42.992042146514045
+        }
+      },
+      "addressSource": "https://www.matteos-risorante.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "diner-house-29-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93871,
+          "nei_id": 3902,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "The Diner House 29",
+          "businessstreetnumber": "431",
+          "businessstreetname": "Welland Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2M5V2",
+          "businesswebsite": "www.dinerhouse29.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.21990259795386,
+          "y": 43.173351953670725
+        }
+      },
+      "addressSource": "https://dinerhouse29.com/",
+      "addressExcerpts": [
+        "Location 431 Welland Ave. St. Catharines (On the corner of Welland Ave/Grantham; beside the Avondale",
+        "431 Welland Ave. St. Catharines (On the corner of Welland Ave/Grantham; beside the Avondale) \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n     \n  \n   Contact"
+      ]
+    },
+    {
+      "venueId": "11th-post-on-queen-niagara-on-the-lake",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86339,
+          "nei_id": 51164,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "11th Post on Queen Restaurant ",
+          "businessstreetnumber": "135",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.11thpostonqueen.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07451608008222,
+          "y": 43.25720801432447
+        }
+      },
+      "addressSource": "https://www.11thpostonqueen.ca",
+      "addressExcerpts": [
+        "ADDRESS 135 Queen Street Niagara-on-the-Lake, Ontario  L0S 1J0 CANADA T: 289.646.7678 E:  info@11",
+        "11th Post on Queen \n                 135 Queen Street, \n                 Niagara-on-the-Lake, ON,",
+        "11th Post on Queen \n                 135 Queen Street, \n                 Niagara-on-the-Lake, ON, L0S 1J0, \n                 C"
+      ]
+    },
+    {
+      "venueId": "aura-on-the-lake-niagara-on-the-lake",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88670,
+          "nei_id": 30845,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Aura on The Lake",
+          "businessstreetnumber": "233",
+          "businessstreetname": "King Street",
+          "businessunit": "3",
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.auraonthelake.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.0720108755224,
+          "y": 43.254162713704034
+        }
+      },
+      "addressSource": "https://www.auraonthelake.ca",
+      "addressExcerpts": [
+        "233 KING STREET          ·          NIAGARA-ON-THE-LAKE         ·          ★ 4.4 GOOGLE",
+        "📍    233 King Street #3, Niagara-on-the-Lake, ON, L0S 1J0 📞  (905) 468-7222 ✉️   info@auraont"
+      ]
+    },
+    {
+      "venueId": "bistro-six-one-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92032,
+          "nei_id": 10023,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Bistro Six One",
+          "businessstreetnumber": "61",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.bistrosixone.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07263999872015,
+          "y": 43.25614753189362
+        }
+      },
+      "addressSource": "https://bistrosixone.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "budapest-bakeshop-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88395,
+          "nei_id": 30711,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Budapest Bakeshop",
+          "businessstreetnumber": "118",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.budapestbakeshop.com",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.07478603287156,
+          "y": 43.256242150823006
+        }
+      },
+      "addressSource": "https://budapestbakeshop.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "corks-wine-bar-eatery-niagara-on-the-lake",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85358,
+          "nei_id": 10037,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Corks Wine Bar and Eatery",
+          "businessstreetnumber": "19",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.corksniagara.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07126914688205,
+          "y": 43.25532752298513
+        }
+      },
+      "addressSource": "https://www.corksniagara.com",
+      "addressExcerpts": [
+        "top of page 19 QUEEN STREET  |  NIAGARA ON THE LAKE HOME LOCATION & CONTACT MENU EVENT SPACE More...",
+        ".com/haunted-restaurants/ LOCATION & CONTACT \n 19 Queen Street | Niagara on the Lake | ON  TEL: 289-868-9527 LOCATION & CONTACT bottom"
+      ]
+    },
+    {
+      "venueId": "wainfleet-restaurant-wainfleet",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88128,
+          "nei_id": 9434,
+          "Year": 2025,
+          "municipality": "Wainfleet",
+          "businessname": "Wainfleet Motel and Restaurant",
+          "businessstreetnumber": "42085",
+          "businessstreetname": "Highway 3",
+          "businessunit": null,
+          "businesspostalcode": "L0S1V0",
+          "businesswebsite": "www.wainmotel.com",
+          "primarynaics": 721112,
+          "industry": "Motor hotels"
+        },
+        "geometry": {
+          "x": -79.37785432590589,
+          "y": 42.94246051426572
+        }
+      },
+      "addressSource": "https://www.wainmotel.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "itty-bitty-pie-company-st-catharines",
+      "decision": "hold",
+      "reason": "Inventory address differs from historical listing; current address not verified.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95303,
+          "nei_id": 4365,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Itty Bitty Pie Company",
+          "businessstreetnumber": "353",
+          "businessstreetname": "Lake Street",
+          "businessunit": "13",
+          "businesspostalcode": "L2R5X6",
+          "businesswebsite": "www.ittybittypie.ca",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.25212481235707,
+          "y": 43.18305567126449
+        }
+      },
+      "addressSource": "https://www.ittybittypie.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "grazi-cafe-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87610,
+          "nei_id": 2887,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Grazi Cafe ",
+          "businessstreetnumber": "436",
+          "businessstreetname": "Vansickle Road",
+          "businessunit": "1",
+          "businesspostalcode": "L2S0A4",
+          "businesswebsite": "www.grazicafe.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.27004923890549,
+          "y": 43.154054642485725
+        }
+      },
+      "addressSource": "https://grazicafe.ca/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "hometown-ice-cream-st-catharines",
+      "decision": "hold",
+      "reason": "Inventory lists 100 Fourth Avenue Unit 28, now advertised by Humble Doughnut. Do not transfer the old business point.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84522,
+          "nei_id": 12215,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Hometown Ice Cream",
+          "businessstreetnumber": "100",
+          "businessstreetname": "Fourth Avenue",
+          "businessunit": "28",
+          "businesspostalcode": "L2S3P3",
+          "businesswebsite": "www.hometownicecream.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.26366118687746,
+          "y": 43.15520942625366
+        }
+      },
+      "addressSource": "https://www.hometownicecream.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "valentinos-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92967,
+          "nei_id": 20183,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Valentino's ",
+          "businessstreetnumber": "242",
+          "businessstreetname": "Pelham Road",
+          "businessunit": null,
+          "businesspostalcode": "L2S1X9",
+          "businesswebsite": "www.valentinosinc.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.25646361623622,
+          "y": 43.13221616349193
+        }
+      },
+      "addressSource": "https://www.valentinosinc.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "the-tangerine-tortoise-st-catharines",
+      "decision": "preserved-existing-point",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90860,
+          "nei_id": 50483,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "The Tangerine Tortoise",
+          "businessstreetnumber": "145",
+          "businessstreetname": "Russell Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2R1W2",
+          "businesswebsite": "www.tangerinetortoise.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.24409900269106,
+          "y": 43.1705522329873
+        }
+      },
+      "addressSource": "https://tangerinetortoise.ca/",
+      "addressExcerpts": [
+        "Homemade Balsamic Dressing – $15 Our Location 145 Russell Ave  St. Catharines, Ontario  L2R 1W2 Call to pre-order or to make a reservatio",
+        "nday, Tuesday  closed The Tangerine Tortoise  145 Russell Ave  St. Catharines, Ontario  L2R 1W2 Call:   905-380-4090 © 2020 TangerineTort"
+      ]
+    },
+    {
+      "venueId": "ravine-vineyard-restaurant-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95660,
+          "nei_id": 12230,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Ravine Vineyard ",
+          "businessstreetnumber": "1366",
+          "businessstreetname": "York Road",
+          "businessunit": null,
+          "businesspostalcode": "L0S1P0",
+          "businesswebsite": "www.ravinevineyard.com",
+          "primarynaics": 312130,
+          "industry": "Wineries"
+        },
+        "geometry": {
+          "x": -79.1032972931282,
+          "y": 43.16049557350693
+        }
+      },
+      "addressSource": "https://ravinevineyard.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "silversmith-brewing-company-niagara-on-the-lake",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88809,
+          "nei_id": 10255,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Silversmith Brewing Co.",
+          "businessstreetnumber": "1523",
+          "businessstreetname": "Niagara Stone Road",
+          "businessunit": null,
+          "businesspostalcode": "L0S1T0",
+          "businesswebsite": "www.silversmithbrewing.com",
+          "primarynaics": 312120,
+          "industry": "Breweries"
+        },
+        "geometry": {
+          "x": -79.12128079839985,
+          "y": 43.22210528814587
+        }
+      },
+      "addressSource": "https://silversmithbrewing.com/",
+      "addressExcerpts": [
+        "us brew. \n\n\n\n \n\n\n\n \n 135 Years Old \n\n\n\n \n\n\n\n 1523 Niagara Stone Rd. Virgil, ON \n \n \n\n\n\n \n \n\n\n\n \n \n \n\n\n\n Ecclesia Series \n\n\n\n Silversmith has ca",
+        "The Church 1523 Niagara Stone Rd L0S 1T0 Virgil, ON   +1 (905) 468 8447 Sunday 11:30AM - 7:30PM Monday - Wedn"
+      ]
+    },
+    {
+      "venueId": "masaki-sushi-niagara-on-the-lake",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92866,
+          "nei_id": 60309,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Masaki Sushi",
+          "businessstreetnumber": "60",
+          "businessstreetname": "Picton Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.masakisushi.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.06932312535633,
+          "y": 43.25356658768822
+        }
+      },
+      "addressSource": "https://www.masakisushi.ca",
+      "addressExcerpts": [
+        "Address \n\t\t\t\t\t\t\t60 Picton Street, Niagara-on-the-Lake, L0S 1J0 (in the Moffat Inn)"
+      ]
+    },
+    {
+      "venueId": "the-garrison-house-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "HTTP Error 403: Forbidden",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84494,
+          "nei_id": 10047,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "The Garrison House",
+          "businessstreetnumber": "111",
+          "businessstreetname": "Garrison Village Drive",
+          "businessunit": "C2",
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.thegarrisonhouse.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.09553522474243,
+          "y": 43.24441120795863
+        }
+      },
+      "addressSource": "https://www.thegarrisonhouse.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "table-rock-house-restaurant-niagara-falls",
+      "decision": "hold",
+      "reason": "Generic Niagara Parks homepage is not a venue-specific address check.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84829,
+          "nei_id": 5897,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Table Rock - Restaurant",
+          "businessstreetnumber": "6650",
+          "businessstreetname": "Niagara River Parkway",
+          "businessunit": null,
+          "businesspostalcode": "L2E3E8",
+          "businesswebsite": "www.niagaraparks.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.0790520733573,
+          "y": 43.079388561491946
+        }
+      },
+      "addressSource": "https://www.niagaraparks.com",
+      "addressExcerpts": [
+        "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2",
+        "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2",
+        "6650 Niagara River Pkwy, Niagara Falls, ON L2E 6T2"
+      ]
+    },
+    {
+      "venueId": "weinkeller-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91983,
+          "nei_id": 5768,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Weinkeller",
+          "businessstreetnumber": "5633",
+          "businessstreetname": "Victoria Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2G3L5",
+          "businesswebsite": "www.weinkeller.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07464868970183,
+          "y": 43.093609383646594
+        }
+      },
+      "addressSource": "https://www.weinkeller.ca",
+      "addressExcerpts": [
+        "k the image above for directions. find us at 5633 Victoria Ave, Niagara Falls. We look forward to making your visit a memorable one.",
+        "LOCATION \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   5633 Victoria Avenue Niagara Falls, Ontario \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   PHONE"
+      ]
+    },
+    {
+      "venueId": "moksha-indian-bistro-niagara-falls",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94507,
+          "nei_id": 4763,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Moksha Indian Bistro",
+          "businessstreetnumber": "5993",
+          "businessstreetname": "Stanley Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2G3Y2",
+          "businesswebsite": "www.mokshaniagara.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.0852486795358,
+          "y": 43.08790725169652
+        }
+      },
+      "addressSource": "https://mokshacatering.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "ag-inspired-cuisine-niagara-falls",
+      "decision": "hold",
+      "reason": "Street type differs: website Magdalen Avenue, inventory Magdalen Street. Resolve before plotting.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89291,
+          "nei_id": 5625,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "A G Inspired Cuisine ",
+          "businessstreetnumber": "5195",
+          "businessstreetname": "Magdalen Street",
+          "businessunit": null,
+          "businesspostalcode": "L2G3S6",
+          "businesswebsite": "www.agcuisine.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07970453782417,
+          "y": 43.09160705383237
+        }
+      },
+      "addressSource": "https://www.agcuisine.com",
+      "addressExcerpts": [
+        "5195 Magdalen Ave, Niagara Falls, Ontario, Canada \n Stay in Touch \n Reservations \n Reserve On",
+        "About Us Blog In The News Contact Us Careers 5195 Magdalen Avenue \n Niagara Falls, Ontario, Canada \n Home About Us Blog In The News Contac"
+      ]
+    },
+    {
+      "venueId": "dis-pizza-pies-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93916,
+          "nei_id": 60210,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Di's Pizza Pies",
+          "businessstreetnumber": "115",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M4",
+          "businesswebsite": "www.dispizzapies.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.24545902248985,
+          "y": 43.15720404179044
+        }
+      },
+      "addressSource": "https://www.dispizzapies.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "pharmacii-st-catharines",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90544,
+          "nei_id": 50424,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Pharmacii Restaurant & Bar",
+          "businessstreetnumber": "22",
+          "businessstreetname": "King Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3H3",
+          "businesswebsite": "www.pharmaciisnackbar.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24713527188689,
+          "y": 43.15702365843628
+        }
+      },
+      "addressSource": "https://www.pharmaciisnackbar.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "ma-chinese-cuisine-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86444,
+          "nei_id": 2311,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "MA Chinese Cuisine",
+          "businessstreetnumber": "123",
+          "businessstreetname": "Geneva Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R4N3",
+          "businesswebsite": "www.machinesecuisine.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24082361219156,
+          "y": 43.16714727958017
+        }
+      },
+      "addressSource": "https://www.machinesecuisine.com",
+      "addressExcerpts": [
+        "rs: \nMonday - Sunday: 11:30am to 10:00pm \n \n \n123 Geneva Street. St Catharines \n 289.362.2888 bottom of page"
+      ]
+    },
+    {
+      "venueId": "willow-cakes-pastries-niagara-on-the-lake",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85753,
+          "nei_id": 10214,
+          "Year": 2025,
+          "municipality": "Niagara on the Lake",
+          "businessname": "Willow Cakes and Pasteries Niagara Inc.",
+          "businessstreetnumber": "242",
+          "businessstreetname": "Mary Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1J0",
+          "businesswebsite": "www.willowcakes.ca",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.08353491959107,
+          "y": 43.252323696542014
+        }
+      },
+      "addressSource": "https://www.willowcakes.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "homestead-donuts-thorold",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85922,
+          "nei_id": 30097,
+          "Year": 2025,
+          "municipality": "Thorold",
+          "businessname": "Homestead Donuts ",
+          "businessstreetnumber": "26",
+          "businessstreetname": "Pine Street South ",
+          "businessunit": null,
+          "businesspostalcode": "L2V3L2",
+          "businesswebsite": "www.homestead.morcor.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.2027159820792,
+          "y": 43.12377130151556
+        }
+      },
+      "addressSource": "https://www.homestead.morcor.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "beamsville-bakery-lincoln",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89972,
+          "nei_id": 10573,
+          "Year": 2025,
+          "municipality": "Lincoln",
+          "businessname": "Beamsville Bakery",
+          "businessstreetnumber": "4966",
+          "businessstreetname": "King Street",
+          "businessunit": null,
+          "businesspostalcode": "L0R1B0",
+          "businesswebsite": "www.beamsvillebakery.ca",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.47502303704614,
+          "y": 43.16505340068195
+        }
+      },
+      "addressSource": "https://www.beamsvillebakery.ca",
+      "addressExcerpts": [
+        "​4966 King Street East, ​Beamsville, ON 905-563-4533",
+        "VISIT US: 4966 King Street East, ​Beamsville, ON L0R 1B0​ CONTACT US: 905-563-4533 ​​ [email protec"
+      ]
+    },
+    {
+      "venueId": "rise-above-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88091,
+          "nei_id": 2130,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Rise Above",
+          "businessstreetnumber": "120",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.riseaboverestaurant.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24477125212252,
+          "y": 43.15706877531983
+        }
+      },
+      "addressSource": "https://www.riseaboverestaurant.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "the-lemon-tree-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87240,
+          "nei_id": 3088,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Lemon Tree",
+          "businessstreetnumber": "395",
+          "businessstreetname": "Ontario Street",
+          "businessunit": "1",
+          "businesspostalcode": "L2N7N6",
+          "businesswebsite": "www.thelemontreebistro.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.26810331413505,
+          "y": 43.181844834288405
+        }
+      },
+      "addressSource": "https://www.thelemontreebistro.com",
+      "addressExcerpts": [
+        "00 \n \n thelemontreerestaurant@outlook.com \n \n 395 Ontario Street St Catharine's  \nOntario Canada \"Your Vegan Oasis with a Mediterranean t",
+        "tlook.com \n \n 395 Ontario Street St Catharine's  \nOntario Canada \"Your Vegan Oasis with a Mediterranean twist\"   Where Flavor Blooms and",
+        "FOLLOW US \n The Lemon Tree \n395 Ontario Street St Catharine's Ontario  Canada © 2019 by The Lemon Tree. Proudly created"
+      ]
+    },
+    {
+      "venueId": "italian-ice-cream-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93645,
+          "nei_id": 6209,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Italian Ice Cream",
+          "businessstreetnumber": "5458",
+          "businessstreetname": "Victoria Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2G3L2",
+          "businesswebsite": "www.italianicecream.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07241860144487,
+          "y": 43.09554382574793
+        }
+      },
+      "addressSource": "https://www.italianicecream.ca",
+      "addressExcerpts": [
+        "re   \n  \n        Tel:  905-356-3866 \n        5458 Victoria Ave. Niagara Falls, ON., Canada L2G 3L2 \n  \n     \n        designed and develope"
+      ]
+    },
+    {
+      "venueId": "red-ganache-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91229,
+          "nei_id": 30104,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Red Ganache ",
+          "businessstreetnumber": "5592",
+          "businessstreetname": "Robinson Street",
+          "businessunit": null,
+          "businesspostalcode": "L2G2A8",
+          "businesswebsite": "www.redganache.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.08580045859584,
+          "y": 43.08594446589987
+        }
+      },
+      "addressSource": "https://www.redganache.com",
+      "addressExcerpts": [
+        "Location \n                             5592 Robinson Street\n\t\t\t\t\t\t\t Niagara Falls, Ontario\n\t\t\t\t\t\t\t L2G 2A8"
+      ]
+    },
+    {
+      "venueId": "niku-japanese-bbq-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 92944,
+          "nei_id": 50147,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Niku Japanese BBQ",
+          "businessstreetnumber": "5278 ",
+          "businessstreetname": "Ferry Street",
+          "businessunit": null,
+          "businesspostalcode": "L2G1R5",
+          "businesswebsite": "www.nikujapanbbq.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.08115453751485,
+          "y": 43.089306542551085
+        }
+      },
+      "addressSource": "https://nikujapanbbq.com/",
+      "addressExcerpts": [
+        "30 a.m. – 11:00 p.m. \n             Find us   5278 Ferry St, Niagara Falls — see the exact pin \n             Call   289-296-6888"
+      ]
+    },
+    {
+      "venueId": "la-revolucion-taqueria-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94778,
+          "nei_id": 80088,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "La Revolucion Taqueria",
+          "businessstreetnumber": "3747",
+          "businessstreetname": "Portage Road",
+          "businessunit": "1",
+          "businesspostalcode": "L2J2L1",
+          "businesswebsite": "www.larevolucion.ca",
+          "primarynaics": 722511,
+          "industry": "Full service restaurant"
+        },
+        "geometry": {
+          "x": -79.09966870623401,
+          "y": 43.118852143233724
+        }
+      },
+      "addressSource": "https://www.larevolucion.ca",
+      "addressExcerpts": [
+        "top of page Visit us at 3747 Portage Road, Niagara Falls ON About Menu Hours Order Contact More Use tab to navigate",
+        "s! Contact Contact Us Address (289) 296-9600 3747 Portage Road, Niagara Falls ON L2J 2L1 Opening Hours Mon-Tues: Closed \nWed-Fri: 11:30am"
+      ]
+    },
+    {
+      "venueId": "fork-you-niagara-falls",
+      "decision": "hold",
+      "reason": "Website River Road differs from inventory River Street. Resolve before plotting.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89040,
+          "nei_id": 50264,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Fork You",
+          "businessstreetnumber": "4015",
+          "businessstreetname": "River Street",
+          "businessunit": null,
+          "businesspostalcode": "L2E3E4",
+          "businesswebsite": "www.fork-you.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.06621477714607,
+          "y": 43.115162212421566
+        }
+      },
+      "addressSource": "https://www.fork-you.ca",
+      "addressExcerpts": [
+        "4015 River Road Niagara Falls, ON L2E 3E4 \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n     \n Book a table Rest"
+      ]
+    },
+    {
+      "venueId": "bistro-mirepoix-st-catharines",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 87071,
+          "nei_id": 1616,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Mirepoix",
+          "businessstreetnumber": "64",
+          "businessstreetname": "Court Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R4S2",
+          "businesswebsite": "www.thetasteofbombay.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.2441026090451,
+          "y": 43.16398754399031
+        }
+      },
+      "addressSource": "https://www.thetasteofbombay.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "amakara-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90565,
+          "nei_id": 2143,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Amakara Japan",
+          "businessstreetnumber": "19",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R4M3",
+          "businesswebsite": "www.amakarajapan.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24024913509098,
+          "y": 43.161019851445026
+        }
+      },
+      "addressSource": "https://www.amakarajapan.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "oddbar-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 84447,
+          "nei_id": 50425,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "oddBar.",
+          "businessstreetnumber": "12",
+          "businessstreetname": "King Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3H3",
+          "businesswebsite": "www.oddbar.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.24726938351046,
+          "y": 43.15682408275659
+        }
+      },
+      "addressSource": "https://oddbird.ca/",
+      "addressExcerpts": [
+        "View Menu 12 King St  \n905.397.1007",
+        "12 King St  \n905.397.1007\n \nSun & Mon Closed  \nTues to Thurs 4pm - 9pm  \nFri & Sat 4pm"
+      ]
+    },
+    {
+      "venueId": "patio-andaluz-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 96945,
+          "nei_id": 30551,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Patio Andaluz",
+          "businessstreetnumber": "5",
+          "businessstreetname": "Lock Street",
+          "businessunit": null,
+          "businesspostalcode": "L2N5B4",
+          "businesswebsite": "www.patio-andaluz.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.26615287932823,
+          "y": 43.201863966067506
+        }
+      },
+      "addressSource": "https://www.patio-andaluz.com",
+      "addressExcerpts": [
+        "Patio Andaluz \n                 5 Lock Street, \n                 St. Catharines, ON, L2N 5B4, \n                 Canada",
+        "LOCATION 5 Lock St. St. Catharines, ON (905) 935-9000 \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n \n\n \n   H"
+      ]
+    },
+    {
+      "venueId": "il-gelato-di-carlotta-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 97119,
+          "nei_id": 60294,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Il Gelato Di Carlotta",
+          "businessstreetnumber": "17",
+          "businessstreetname": "Lock Street",
+          "businessunit": null,
+          "businesspostalcode": "L2N5B6",
+          "businesswebsite": "www.gelatodicarlotta.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.26697957577187,
+          "y": 43.20225524021894
+        }
+      },
+      "addressSource": "https://www.gelatodicarlotta.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "thistle-bookshop-cafe-st-catharines",
+      "decision": "hold",
+      "reason": "Possible relocation since survey; current branch/address not resolved.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94571,
+          "nei_id": 30526,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Thistle Bookshop and Cafe ",
+          "businessstreetnumber": "50",
+          "businessstreetname": "Lakeport Road ",
+          "businessunit": "103",
+          "businesspostalcode": "L2N4P7",
+          "businesswebsite": "www.thistlebookshop.ca",
+          "primarynaics": 459210,
+          "industry": "Book retailers and news dealers"
+        },
+        "geometry": {
+          "x": -79.26623154744053,
+          "y": 43.201351827021064
+        }
+      },
+      "addressSource": "https://www.thistlebookshop.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "suisha-gardens-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88661,
+          "nei_id": 5021,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Suisha Gardens",
+          "businessstreetnumber": "5701",
+          "businessstreetname": "Lewis Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2G3R8",
+          "businesswebsite": "www.suishagardens.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.08122662618398,
+          "y": 43.0929499908335
+        }
+      },
+      "addressSource": "https://www.suishagardens.com",
+      "addressExcerpts": [
+        "zoom Suisha's water wheel press to zoom 1/13 5701 Lewis Avenue, Niagara Falls, ON, L2G 3R8, CANADA \n\n T:  905-354-1500 \n\n E:  suishagar"
+      ]
+    },
+    {
+      "venueId": "pho-vietnam-3969-niagara-falls",
+      "decision": "hold",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85998,
+          "nei_id": 6536,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Pho Vietnam 3969",
+          "businessstreetnumber": "3969",
+          "businessstreetname": "Montrose Road",
+          "businessunit": "3",
+          "businesspostalcode": "L2H3A1",
+          "businesswebsite": "www.phovietnam3969.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.1252391797012,
+          "y": 43.11529981623286
+        }
+      },
+      "addressSource": "https://www.phovietnam3969.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "fried-chicken-roks-niagara-falls",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88599,
+          "nei_id": 30060,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Fried Chicken ROK's",
+          "businessstreetnumber": "7990",
+          "businessstreetname": "Portage Road",
+          "businessunit": null,
+          "businesspostalcode": "L2G5Y8",
+          "businesswebsite": "www.friedchickenroks.com",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.0548437875553,
+          "y": 43.06100177614289
+        }
+      },
+      "addressSource": "https://www.friedchickenroks.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "flavors-spices-niagara-falls",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94428,
+          "nei_id": 30082,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Flavors and Spices",
+          "businessstreetnumber": "5500",
+          "businessstreetname": "Victoria Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2G3L2",
+          "businesswebsite": "www.flavorsandspices.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07261041084813,
+          "y": 43.09486008276846
+        }
+      },
+      "addressSource": "https://flavorsandspices.ca/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "kaashi-indian-cuisine-niagara-falls",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90966,
+          "nei_id": 40134,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Kaashi Indian Cuisine",
+          "businessstreetnumber": "5745",
+          "businessstreetname": "Ferry Street",
+          "businessunit": null,
+          "businesspostalcode": "L2G1S8",
+          "businesswebsite": "www.kaashi.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.08998337398323,
+          "y": 43.089886233569835
+        }
+      },
+      "addressSource": "https://www.kaashi.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "balti-indian-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88214,
+          "nei_id": 60079,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Balti Indian Restaurant",
+          "businessstreetnumber": "5306",
+          "businessstreetname": "Victoria Avenue",
+          "businessunit": null,
+          "businesspostalcode": "L2E4E8",
+          "businesswebsite": "www.baltiindian.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.07264094437122,
+          "y": 43.09761323764082
+        }
+      },
+      "addressSource": "https://baltiindian.ca/",
+      "addressExcerpts": [
+        "orders over $20 before taxes)  ORDER ONLINE 5306 Victoria Ave, Niagara Falls, ON L2E 4E8 Indian Restaurant in Niagara",
+        "mail Us    Order Online   \t \n\t \n\n \n\t\t \n\t\t    5306 Victoria Ave, Niagara Falls   (289) 296-6572     Email Us    Order Online",
+        "mail Us    Order Online   \t \n\t \n\n \n\t\t \n\t\t    5306 Victoria Ave, Niagara Falls   (289) 296-6572     Email Us    Order Online"
+      ]
+    },
+    {
+      "venueId": "sahla-thai-st-catharines",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 94516,
+          "nei_id": 2145,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Sahla Thai Restaurant",
+          "businessstreetnumber": "270",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M9",
+          "businesswebsite": "www.sahlathai.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24225218231473,
+          "y": 43.15886253560924
+        }
+      },
+      "addressSource": "https://sahlathai.com/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "la-scala-ristorante-st-catharines",
+      "decision": "hold",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95044,
+          "nei_id": 2026,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "La Scala Ristorante and Cafe",
+          "businessstreetnumber": "9",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R5G4",
+          "businesswebsite": "www.lascalaristorante.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24602365814282,
+          "y": 43.1567413180843
+        }
+      },
+      "addressSource": "https://www.lascalaristorante.ca",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "chile-agave-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88950,
+          "nei_id": 1040,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Chile and Agave",
+          "businessstreetnumber": "51",
+          "businessstreetname": "Hartzel Road",
+          "businessunit": null,
+          "businesspostalcode": "L2P1P1",
+          "businesswebsite": "www.chileandagave.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.21477775916105,
+          "y": 43.15515941885745
+        }
+      },
+      "addressSource": "https://www.chileandagave.ca",
+      "addressExcerpts": [
+        "am – 5 pm \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   Visit us 51 Hartzel Rd St. Catharines, ON L2P 1M6 (905) 688-8383 Get directions →"
+      ]
+    },
+    {
+      "venueId": "georges-greek-village-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 90845,
+          "nei_id": 1165,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "George's Greek Village",
+          "businessstreetnumber": "535",
+          "businessstreetname": "Queenston Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R7K6",
+          "businesswebsite": "www.georgesgreekvillage.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.19666989698676,
+          "y": 43.1659059951202
+        }
+      },
+      "addressSource": "https://georgesgreekvillage.com/",
+      "addressExcerpts": [
+        "LOCATION \t\t\t\t \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t \n\t\t\t\t\t\t\t\t\t 535 Queenston St, St Catharines, ON L2R 7K6 T: 905-684-5484 info@georgesgreekvillage.com"
+      ]
+    },
+    {
+      "venueId": "touch-of-india-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88447,
+          "nei_id": 2131,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Touch of India",
+          "businessstreetnumber": "126",
+          "businessstreetname": "St. Paul Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3M2",
+          "businesswebsite": "www.touchofindia.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.24477125212252,
+          "y": 43.15706877531983
+        }
+      },
+      "addressSource": "https://touchofindia.ca/",
+      "addressExcerpts": [
+        "Find Us \t\t\t Address \n126 St. Paul St., St. Catharines, ON L2R 3M2 \n Takeout or Reservations call  905-988-1155"
+      ]
+    },
+    {
+      "venueId": "7-mile-bistro-st-catharines",
+      "decision": "hold",
+      "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93495,
+          "nei_id": 30579,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "7 Mile Bistro",
+          "businessstreetnumber": "215",
+          "businessstreetname": "St. Paul Street W",
+          "businessunit": null,
+          "businesspostalcode": "L2S2E1",
+          "businesswebsite": "www.7milebistro.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.25768067710047,
+          "y": 43.145606660885555
+        }
+      },
+      "addressSource": "https://www.7milebistro.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "paris-crepes-cafe-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91749,
+          "nei_id": 6410,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Paris Crepes Cafe",
+          "businessstreetnumber": "4613",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L2E2L7",
+          "businesswebsite": "www.pariscrepescafe.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.06960412759798,
+          "y": 43.10692765940825
+        }
+      },
+      "addressSource": "https://pariscrepescafe.com/",
+      "addressExcerpts": [
+        "E PARIS, RIGHT HERE IN NIAGARA. 289 296 4218 4613 QUEEN STREET \n The menu What’s on Our story Explore  ＋ Weeknight specials Dinner & a",
+        "at’s on at the café \n PULL UP A CHAIR See you on  Queen Street. Good to know 4613 Queen Street Niagara Falls, Ontario L2E 2L7 A short w",
+        "CHAIR See you on  Queen Street. Good to know 4613 Queen Street Niagara Falls, Ontario L2E 2L7 A short walk from the VIA Rail & GO stati"
+      ]
+    },
+    {
+      "venueId": "moodies-bakery-niagara-falls",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88772,
+          "nei_id": 6386,
+          "Year": 2025,
+          "municipality": "Niagara Falls",
+          "businessname": "Moodie's Bakery",
+          "businessstreetnumber": "4552",
+          "businessstreetname": "Queen Street",
+          "businessunit": null,
+          "businesspostalcode": "L2E2L5",
+          "businesswebsite": "www.moodiesbakery.ca",
+          "primarynaics": 311811,
+          "industry": "Bakeries, manufacture of products for retail sale"
+        },
+        "geometry": {
+          "x": -79.06831729012646,
+          "y": 43.106424195472506
+        }
+      },
+      "addressSource": "https://moodiesbakery.ca/",
+      "addressExcerpts": [
+        "ess \t\t\t\t \n\t\t\t\t \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t 4552 Queen St \n\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t Niagara Falls, L2E 2L5"
+      ]
+    },
+    {
+      "venueId": "pho-real-pelham",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86486,
+          "nei_id": 11012,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Pho Real",
+          "businessstreetnumber": "124",
+          "businessstreetname": "Highway 20 East",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E3",
+          "businesswebsite": "www.phorealfonthill.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.27763103506265,
+          "y": 43.047954859482296
+        }
+      },
+      "addressSource": "https://www.phorealfonthill.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "root-bone-pelham",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93842,
+          "nei_id": 11017,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Root and Bone",
+          "businessstreetnumber": "1469",
+          "businessstreetname": "Pelham Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E4",
+          "businesswebsite": "www.zestfonthill.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.28504463213223,
+          "y": 43.045063165325814
+        }
+      },
+      "addressSource": "https://www.rootandbone.ca/",
+      "addressExcerpts": [
+        "ROOT & BONE MENU FOLLOW OUR STORY CONTACT US 1469 Pelham St, Fonthill, ONTARIO CONTACT@ROOTANDBONE.CA +1 905-892-6474 ROOT & BONE HOURS"
+      ]
+    },
+    {
+      "venueId": "stoke-deli-bar-pelham",
+      "decision": "preserved-existing-point",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 88262,
+          "nei_id": 60440,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Stoke Deli Bar",
+          "businessstreetnumber": "1501",
+          "businessstreetname": "Pelham Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E5",
+          "businesswebsite": "www.stokedelibar.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.28522943406139,
+          "y": 43.04567415163305
+        }
+      },
+      "addressSource": "https://stokedelibar.ca/home",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "pelham-street-grille-pelham",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89073,
+          "nei_id": 11094,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "The Pelham Street Grille",
+          "businessstreetnumber": "1507",
+          "businessstreetname": "Pelham Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E0",
+          "businesswebsite": "www.pelhamstgrille.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.28512194259349,
+          "y": 43.045951299667905
+        }
+      },
+      "addressSource": "https://thepelhamstreetgrille.com/",
+      "addressExcerpts": [
+        "Contact Or Visit Us \n\n\t\t  \n\t  \t \n\t\t\t \n\t\t \n\n pelhamstreetgrille@gmail.com 289-897-9191 1507 Pelham Street Fonthill, ON L0S 1E0",
+        "pelhamstreetgrille@gmail.com 289-897-9191 1507 Pelham Street Fonthill, ON L0S 1E0",
+        "289-897-9191 pelhamstreetgrille@gmail.com 1507 Pelham Street Fonthill, ON L0S 1E0"
+      ]
+    },
+    {
+      "venueId": "chois-roll-bowl-pelham",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95257,
+          "nei_id": 60438,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Choi's Roll & Bowl",
+          "businessstreetnumber": "1455",
+          "businessstreetname": "Pelham Street",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E0",
+          "businesswebsite": "www.chois.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.28508506486799,
+          "y": 43.044780755415495
+        }
+      },
+      "addressSource": "https://chois.ca/",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "italian-peasant-gastro-market-pelham",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 91955,
+          "nei_id": 60459,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Italian Peasant ",
+          "businessstreetnumber": "1376",
+          "businessstreetname": "Haist Street",
+          "businessunit": "L1",
+          "businesspostalcode": "L0S1M0",
+          "businesswebsite": "www.italianpeasantgastromarket.com/",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.29551761564913,
+          "y": 43.04148989729983
+        }
+      },
+      "addressSource": "https://www.italianpeasantgastromarket.com/",
+      "addressExcerpts": [
+        "Fonthill store \n\n\n  \n \n\n \n \n\n\n\n\n \n \n  \n   1376 HAIST ST, FONTHILL ON (289) 897-8998 theitalianpeasant.canada@gmail.com"
+      ]
+    },
+    {
+      "venueId": "cured-tapas-cocktails-pelham",
+      "decision": "hold",
+      "reason": "HTTP Error 503: Service Unavailable",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 98021,
+          "nei_id": 30801,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Cured Charcuterie and Cocktails ",
+          "businessstreetnumber": "1161",
+          "businessstreetname": "Pelham Street",
+          "businessunit": "4",
+          "businesspostalcode": "L3C6Z9",
+          "businesswebsite": "www.curedcharcuterie.com ",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.28474426666773,
+          "y": 43.02742296377957
+        }
+      },
+      "addressSource": "https://www.curedcharcuterie.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "young-thai-pelham",
+      "decision": "hold",
+      "reason": "Current address was not confirmed on the business homepage.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 86952,
+          "nei_id": 10984,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Young Thai Cuisine",
+          "businessstreetnumber": "12",
+          "businessstreetname": "Highway 20 East",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E0",
+          "businesswebsite": "www.youngthaicuisine.com",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.2839681282564,
+          "y": 43.04555578777796
+        }
+      },
+      "addressSource": "https://www.youngthaicuisine.com",
+      "addressExcerpts": []
+    },
+    {
+      "venueId": "kame-kettle-pelham",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 89087,
+          "nei_id": 12355,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Kame and Kettle Beer Works",
+          "businessstreetnumber": "25",
+          "businessstreetname": "Pelham Town Square",
+          "businessunit": null,
+          "businesspostalcode": "L0S1E0",
+          "businesswebsite": "www.kameandkettle.ca",
+          "primarynaics": 312120,
+          "industry": "Breweries"
+        },
+        "geometry": {
+          "x": -79.2849689123849,
+          "y": 43.04394919793351
+        }
+      },
+      "addressSource": "https://kameandkettle.ca/",
+      "addressExcerpts": [
+        "Location  \n \n Kame & Kettle Beer Works \n 25 Pelham Town Square, Fonthill, ON \n  P.O. Box 1485, Fonthill, ON L0S 1E0 \n \n \n \n \n\t\t Contact"
+      ]
+    },
+    {
+      "venueId": "natures-corner-bakery-and-cafe-pelham",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 95714,
+          "nei_id": 12501,
+          "Year": 2025,
+          "municipality": "Pelham",
+          "businessname": "Nature's Corner Bakery and Cafe",
+          "businessstreetnumber": "302",
+          "businessstreetname": "Canboro Road",
+          "businessunit": "1A",
+          "businesspostalcode": "L0S1M0",
+          "businesswebsite": "www.naturescorner.ca",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.31119299896248,
+          "y": 43.037275983288204
+        }
+      },
+      "addressSource": "https://www.naturescorner.ca/",
+      "addressExcerpts": [
+        "About Us Facebook X (Twitter) Instagram 302 Canboro Road Unit 1A Ridgeville Ontario L0S 1M0 Canada Map Email 905 892 0059 © Copyrig"
+      ]
+    },
+    {
+      "venueId": "its-about-thyme-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 93086,
+          "nei_id": 1575,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "It's About Thyme",
+          "businessstreetnumber": "95",
+          "businessstreetname": "Geneva Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R4M8",
+          "businesswebsite": "www.aboutthymestcatharines.com/",
+          "primarynaics": 722512,
+          "industry": "Limited-service eating places"
+        },
+        "geometry": {
+          "x": -79.2404688585948,
+          "y": 43.16488167855859
+        }
+      },
+      "addressSource": "https://www.aboutthymestcatharines.com/contact",
+      "addressExcerpts": [
+        "95 Geneva St, St. Catharines"
+      ]
+    },
+    {
+      "venueId": "spicy-thai-st-catharines",
+      "decision": "accepted",
+      "reason": "Current business website address matches reviewed inventory record.",
+      "reviewedAt": "2026-11-28",
+      "inventoryRecord": {
+        "attributes": {
+          "OBJECTID": 85684,
+          "nei_id": 1486,
+          "Year": 2025,
+          "municipality": "St Catharines",
+          "businessname": "Spicy Thai Restaurant",
+          "businessstreetnumber": "208",
+          "businessstreetname": "Church Street",
+          "businessunit": null,
+          "businesspostalcode": "L2R3E9",
+          "businesswebsite": "www.spicythai.ca",
+          "primarynaics": 722511,
+          "industry": "Full-service restaurants"
+        },
+        "geometry": {
+          "x": -79.23589958703275,
+          "y": 43.16359720413634
+        }
+      },
+      "addressSource": "https://spicythai.ca/contact/",
+      "addressExcerpts": [
+        "208 Church Street, St. Catharines"
+      ]
+    }
+  ],
+  "pendingLeads": [
+    {
+      "name": "Pho Thanh Dat Viet",
+      "reason": "Conflicting Hartzel Road and Glendale Avenue listings; current branch not verified.",
+      "source": "https://www.reddit.com/r/stcatharinesON/comments/1uvja4a/first_new_recommendation_everyone_tell_us_the/"
+    },
+    {
+      "name": "Gigi’s Wood Oven Pizza",
+      "reason": "Historical editorial and Reddit coverage found, but current directory reports permanent closure and delivery listing is unavailable. Hold instead of adding as a new place to visit.",
+      "sources": [
+        "https://www.ashleywanders.com/2024/07/05/restaurants-in-downtown-st-catharines/",
+        "https://wanderlog.com/place/details/16003410/gigis",
+        "https://www.ubereats.com/ca/store/gigis-wood-oven-puzza/2TdrfDZuTi60C4HC28KGCw"
+      ]
+    }
+  ]
+}
